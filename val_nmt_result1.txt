@@ -1,0 +1,2000 @@
+Decoded:  <unk> 我 。 <eos>
+Targets:  <sos> 沉 了 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 高 举 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 导 向 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 危 险 <eos>
+Decoded:  <unk> 我 ， <eos>
+Targets:  <sos> 回 扣 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 文 档 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 孙 伟 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 吻 合 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 抵 制 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 截 留 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 饬 派 <eos>
+Decoded:  <unk> 我 。 <eos>
+Targets:  <sos> 反 省 <eos>
+Decoded:  <unk> 这 的 <eos>
+Targets:  <sos> 在 这 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 注 解 <eos>
+Decoded:  <unk> 我 ， <eos>
+Targets:  <sos> 湖 边 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 孩 子 <eos>
+Decoded:  <unk> 我 们 。
+Targets:  <sos> 明 白 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 好 了 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 嗯 。 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 好 的 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 其 实 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 进 行 了 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 团 体 和 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 清 楚 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 哎 哎 哟 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 给 我 上 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 第 一 年 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 包 为 民 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 你 走 吧 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 要 紧 跟 <eos>
+Decoded:  <unk> 我 。 <eos> <eos>
+Targets:  <sos> 朱 永 新 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 出 版 等 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 陈 洪 先 <eos>
+Decoded:  <unk> 我 。 <eos> <eos>
+Targets:  <sos> 孙 政 才 <eos>
+Decoded:  <unk> 不 ， <eos> <eos>
+Targets:  <sos> 别 动 啊 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 我 的 腿 <eos>
+Decoded:  <unk> 我 的 <eos>
+Targets:  <sos> 离 休 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 可 以 ， 我 会 的 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 洗 一 下 头 。 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 你 这 个 蠢 材 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 的 账 单 呢 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos>
+Targets:  <sos> 大 头 0 0 7 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 让 我 给 丢 了 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 计 算 机 代 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 假 借 名 义 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 在 那 边 . <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos>
+Targets:  <sos> 不 可 能 吧 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 我 等 着 。 <eos>
+Decoded:  <unk> 我 的 ，
+Targets:  <sos> 编 程 <eos>
+Decoded:  <unk> 不 不 的
+Targets:  <sos> 免 诉 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> 他 不 懂 <eos>
+Decoded:  <unk> 我 的 <eos> <eos>
+Targets:  <sos> 捕 亡 律 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> 掌 舵 者 <eos>
+Decoded:  <unk> 我 的 ， <eos>
+Targets:  <sos> 以 带 动 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> <unk> 福 敏 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> 输 入 的 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> 侯 记 者 <eos>
+Decoded:  <unk> 我 的 的
+Targets:  <sos> 供 词 <eos>
+Decoded:  <unk> 我 的 ，
+Targets:  <sos> 赌 本 <eos>
+Decoded:  <unk> 我 的 ，
+Targets:  <sos> 受 罚 <eos>
+Decoded:  <unk> 我 的 的 ，
+Targets:  <sos> 讲 义 气 <eos>
+Decoded:  <unk> 我 们 的
+Targets:  <sos> 午 字 <eos>
+Decoded:  <unk> 这 的
+Targets:  <sos> 哈 <eos>
+Decoded:  <unk> 我 们 的 ，
+Targets:  <sos> 救 助 。 <eos>
+Decoded:  <unk> 我 不 不 的
+Targets:  <sos> 不 信 教 <eos>
+Decoded:  <unk> 我 的 的 <eos>
+Targets:  <sos> 买 卖 法 <eos>
+Decoded:  <unk> 我 们 的 ，
+Targets:  <sos> 用 制 度 <eos>
+Decoded:  <unk> 我 们 的 ，
+Targets:  <sos> 你 醒 了 <eos>
+Decoded:  <unk> 我 的 ， <eos>
+Targets:  <sos> 下 舍 入 <eos>
+Decoded:  <unk> 我 们 的 ，
+Targets:  <sos> 各 地 都 <eos>
+Decoded:  <unk> 我 的 的
+Targets:  <sos> 真 是 <eos>
+Decoded:  <unk> 我 们 的
+Targets:  <sos> 真 香 <eos>
+Decoded:  <unk> 我 们 的 ， <eos>
+Targets:  <sos> 你 先 下 来 <eos>
+Decoded:  <unk> 我 们 的 ， <eos>
+Targets:  <sos> 文 件 保 护 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos>
+Targets:  <sos> 小 孩 囟 门 <eos>
+Decoded:  <unk> 我 们 的 的 ，
+Targets:  <sos> 那 是 教 育 <eos>
+Decoded:  <unk> 我 们 的 的 <eos>
+Targets:  <sos> 好 了 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos>
+Targets:  <sos> 第 八 章 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos>
+Targets:  <sos> 春 天 来 了 <eos>
+Decoded:  <unk> 我 们 的 的 <eos>
+Targets:  <sos> 小 妹 碧 霄 <eos>
+Decoded:  <unk> 我 们 的 的 <eos>
+Targets:  <sos> 几 件 行 李 <eos>
+Decoded:  <unk> 我 们 的 的 <eos>
+Targets:  <sos> 欧 阳 钟 灿 <eos>
+Decoded:  <unk> 我 ， <eos> <eos>
+Targets:  <sos> 转 让 等 <eos>
+Decoded:  <unk> 我 的 的
+Targets:  <sos> 作 案 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 你 在 这 里 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 公 安 行 政 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 煽 动 骚 乱 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 罪 责 难 逃 <eos>
+Decoded:  <unk> 不 不 。 <eos> <eos>
+Targets:  <sos> 当 然 代 表 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos>
+Targets:  <sos> 这 是 城 里 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 包 装 方 式 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 吴 忠 泽 ， <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 我 画 好 了 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 别 碰 小 孩 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 我 满 意 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 下 暴 雨 了 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 打 的 漂 亮 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 文 艺 的 创 新 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 天 使 爱 恶 魔 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 要 我 看 呢 ！ <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 有 共 产 党 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos>
+Targets:  <sos> 公 共 医 疗 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 还 很 自 然 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 基 本 准 则 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 强 烈 愿 望 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 实 践 知 识 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 发 病 机 理 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 儿 童 心 理 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 毛 主 席 , <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 部 队 干 部 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 这 风 真 大 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos>
+Targets:  <sos> 我 等 一 等 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 烂 毡 帽 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 首 先 从 政 治 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 等 这 瞧 吧 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 掩 盖 物 吗 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 工 业 方 面 ， <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 中 国 的 研 究 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 殖 民 主 义 、 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 第 1 2 4 号 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 长 期 时 效 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 你 快 看 呢 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 战 略 目 标 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 不 照 面 ， <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 玉 树 人 民 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos>
+Targets:  <sos> 活 佛 僧 人 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos>
+Targets:  <sos> 宣 传 画 、 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 请 付 现 金 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 事 实 面 前 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 政 府 管 理 <eos>
+Decoded:  <unk> 在 的 <eos> <eos> <eos>
+Targets:  <sos> 党 内 监 督 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 这 六 个 字 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 睡 得 很 安 稳 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 就 住 这 后 头 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 振 作 精 神 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 大 约 一 周 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 综 合 国 力 和 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 关 于 安 全 套 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 高 成 本 要 低 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 也 被 冻 住 了 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 土 地 解 冻 。 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 价 高 了 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 同 学 们 好 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos>
+Targets:  <sos> 保 障 问 题 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 十 进 数 （ 制 ） <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos>
+Targets:  <sos> 是 服 务 员 。 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos>
+Targets:  <sos> 让 我 考 虑 它 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 执 行 顺 畅 ， <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 该 右 拐 吗 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos>
+Targets:  <sos> 解 放 以 来 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 现 在 ， 世 界 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 学 习 、 工 作 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 我 明 天 就 走 <eos>
+Decoded:  <unk> 我 们 。 <eos> <eos> <eos>
+Targets:  <sos> 他 呆 在 家 吗 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 学 习 和 继 承 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 倒 数 第 三 名 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 敌 人 已 经 投 降 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 差 点 忘 了 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 他 们 解 决 工 作 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 感 到 这 一 生 中 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 该 方 案 尚 存 在 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 他 们 多 为 群 众 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 把 它 换 了 好 吗 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 不 舒 服 吗 ？ <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 个 太 咸 了 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 小 宝 快 藏 起 来 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 太 吃 惊 了 。 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 只 按 这 个 按 钮 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 家 伙 我 能 对 付 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 当 时 我 唱 了 一 个 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 带 你 去 那 吧 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 优 化 常 委 会 、 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 直 到 西 安 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 老 伯 伯 当 心 啊 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 别 难 过 了 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 意 识 的 危 机 感 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 是 不 是 傻 瓜 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 因 此 ， 我 们 既 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 1 2 月 8 日 、 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 没 有 水 抽 了 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 减 少 数 量 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 登 机 证 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 我 也 想 了 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos>
+Targets:  <sos> 仲 裁 机 关 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 入 门 杖 子 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 提 供 情 报 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 长 期 时 效 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 生 来 口 吃 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos>
+Targets:  <sos> 积 极 学 习 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 各 行 各 业 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 事 到 如 今 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 些 毛 衣 和 鞋 子 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 谢 谢 大 家 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 所 有 节 目 都 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos>
+Targets:  <sos> 我 们 作 战 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 蛋 内 腐 烂 。 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 我 非 常 爱 你 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 请 多 来 点 水 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 别 吓 着 孩 子 <eos>
+Decoded:  <unk> 政 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 政 府 工 作 中 <eos>
+Decoded:  <unk> （ 的 ， <eos> <eos> <eos>
+Targets:  <sos> 分 工 负 责 ， <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos>
+Targets:  <sos> 回 答 是 ： <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 这 里 头 响 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos>
+Targets:  <sos> 有 多 高 ？ <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 请 只 煎 一 面 <eos>
+Decoded:  <unk> 在 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 研 究 的 成 果 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 3 月 8 日 ， <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos>
+Targets:  <sos> 我 们 多 次 讲 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 哪 买 快 餐 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 要 去 哪 儿 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 1 元 钱 2 斤 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 别 没 事 找 事 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 在 去 日 本 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos>
+Targets:  <sos> 我 是 她 妈 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 沙 家 豪 回 族 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 坚 定 不 移 。 <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos>
+Targets:  <sos> 多 浪 费 啊 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos>
+Targets:  <sos> 腐 化 堕 落 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos>
+Targets:  <sos> 武 王 许 诺 <eos>
+Decoded:  <unk> 人 的 <eos> <eos> <eos>
+Targets:  <sos> 提 存 部 门 <eos>
+Decoded:  <unk> 一 的 ， <eos> <eos>
+Targets:  <sos> 单 一 税 则 <eos>
+Decoded:  <unk> 我 们 的 。 <eos>
+Targets:  <sos> 我 想 有 。 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos>
+Targets:  <sos> 想 也 没 用 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos>
+Targets:  <sos> 干 的 好 孩 子 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos>
+Targets:  <sos> 喝 了 点 酒 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos>
+Targets:  <sos> 大 自 然 灾 害 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 你 们 等 着 吧 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos>
+Targets:  <sos> 一 种 接 受 者 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 正 在 好 转 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 法 定 继 承 人 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos>
+Targets:  <sos> 改 革 开 放 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 历 史 发 展 中 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 生 日 快 乐 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 创 立 和 发 展 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos>
+Targets:  <sos> 占 您 时 间 了 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos>
+Targets:  <sos> 我 都 累 死 了 <eos>
+Decoded:  <unk> 不 的 的 <eos> <eos> <eos>
+Targets:  <sos> 不 接 受 年 检 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos>
+Targets:  <sos> 能 帮 帮 我 吗 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 说 得 很 对 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 中 获 得 发 展 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 自 己 的 科 学 城 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 买 眼 霜 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 找 人 找 门 板 去 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 是 非 常 好 吗 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 买 眼 霜 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 真 正 搞 明 白 了 <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos> <eos>
+Targets:  <sos> 是 蟋 <unk> 罐 子 啊 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos>
+Targets:  <sos> 但 是 包 括 小 费 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 案 件 立 案 标 准 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 而 且 觉 得 热 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 集 体 所 有 制 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 儿 女 都 怨 ， <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 的 教 育 事 业 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 为 了 照 顾 丈 夫 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 管 理 条 例 宗 教 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 白 云 冉 冉 升 起 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 找 玩 具 。 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 张 光 盘 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 倍 加 珍 惜 长 期 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 地 位 职 权 影 响 <eos>
+Decoded:  <unk> 会 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 社 会 主 义 经 济 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 稀 疏 的 胡 须 。 <eos>
+Decoded:  <unk> 他 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 无 法 靠 近 营 救 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 谁 会 相 信 你 的 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 天 气 好 起 来 了 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 给 孩 子 喂 奶 ! <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos>
+Targets:  <sos> 追 兵 要 是 到 了 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 可 以 付 帐 吗 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 可 以 帮 你 吗 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 俄 国 革 命 基 本 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 位 选 手 时 间 到 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 来 一 杯 生 啤 。 <eos>
+Decoded:  <unk> 他 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 公 民 有 依 照 法 律 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 买 五 个 这 样 的 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 把 公 司 卖 了 呗 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 觉 得 正 合 适 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 莫 只 顾 眼 前 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 发 生 在 酒 店 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 天 气 太 冷 了 。 <eos>
+Decoded:  <unk> 中 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 适 合 中 国 国 情 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 第 二 ， 各 品 种 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos>
+Targets:  <sos> 累 得 我 生 病 了 <eos>
+Decoded:  <unk> 不 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 坚 定 的 革 命 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 地 区 安 全 机 制 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos>
+Targets:  <sos> 在 哪 儿 买 票 ？ <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 第 2 3 号 ） <eos>
+Decoded:  <unk> 经 发 展 。 <eos> <eos> <eos>
+Targets:  <sos> 经 济 共 同 发 展 <eos>
+Decoded:  <unk> 这 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 想 的 特 别 深 刻 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 十 八 世 纪 的 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 成 长 起 来 的 一 代 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 个 人 不 忠 诚 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos>
+Targets:  <sos> 汤 军 哪 里 去 了 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 明 天 再 来 好 吗 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 不 是 逃 跑 吗 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 就 这 些 吗 ？ <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 很 高 兴 认 识 你 <eos>
+Decoded:  <unk> 这 不 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 钱 我 不 能 要 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos>
+Targets:  <sos> 又 逃 往 印 度 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 铁 路 建 设 方 案 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 花 是 我 的 孩 子 <eos>
+Decoded:  <unk> 在 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 较 强 的 创 新 能 力 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 让 我 给 你 把 脉 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 要 注 意 以 下 几 点 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 以 改 革 创 新 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 的 英 文 真 烂 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 犯 罪 行 为 的 形 式 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 以 稳 定 安 全 <eos>
+Decoded:  <unk> 这 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 喝 酒 喝 得 滥 醉 了 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 让 我 再 想 想 好 吗 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 绕 也 绕 不 过 去 。 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 吃 什 么 都 一 样 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 把 自 然 灾 害 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 毛 泽 东 同 志 在 世 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 让 我 再 想 想 好 吗 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 给 我 些 乳 酪 吗 <eos>
+Decoded:  <unk> 他 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 揭 发 坏 人 的 罪 行 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 6 张 为 选 举 票 ， <eos>
+Decoded:  <unk> 他 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 自 用 工 之 日 起 即 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 完 工 时 间 延 迟 了 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 账 单 好 像 不 对 。 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 有 自 己 的 床 单 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 围 裙 妈 妈 我 爱 你 <eos>
+Decoded:  <unk> 发 展 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 经 济 发 展 的 需 要 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 所 有 的 情 形 下 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 为 什 么 呀 我 这 是 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 逐 步 渡 过 了 难 关 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 的 手 臂 出 皮 疹 了 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 竹 笔 夹 在 耳 廓 上 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 扎 扎 实 实 推 向 前 进 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 什 么 时 候 开 始 供 应 午 餐 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 招 惹 ， 逗 引 ， 勾 引 ， 引 诱 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 列 车 一 开 就 开 放 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 员 八 千 二 百 多 万 人 <eos>
+Decoded:  <unk> 这 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 一 一 零 七 房 间 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 心 里 一 直 想 着 你 <eos>
+Decoded:  <unk> 这 的 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 公 共 汽 车 要 开 了 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 是 可 以 实 现 的 吗 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 俩 都 很 愉 快 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 来 给 你 拿 包 吧 。 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 下 ， 实 行 互 相 监 督 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 取 得 了 伟 大 的 胜 利 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 有 没 有 微 信 呢 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 这 是 干 什 么 呢 ？ <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 和 朋 友 一 起 来 的 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 不 在 时 一 切 是 你 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 三 ） 项 的 规 定 ， <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 劳 动 者 的 个 人 收 入 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 1 4 年 4 月 份 ， <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 老 肥 羊 这 不 错 给 我 来 一 杯 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 尽 管 这 场 金 融 危 机 给 我 们 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 1 2 年 7 月 1 日 ， <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 A D A 中 的 “ 包 ” ； <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 都 由 衷 地 为 你 高 兴 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 推 倒 大 山 ， 改 作 平 原 <eos>
+Decoded:  <unk> 这 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 么 应 该 是 很 大 的 . <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 能 带 着 这 些 行 李 吗 <eos>
+Decoded:  <unk> 人 民 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 西 藏 地 区 人 民 的 命 运 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 可 以 兑 现 这 些 筹 码 吗 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 件 衣 服 值 多 少 钱 哪 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 “ 捞 捞 ” 菜 吗 ？ <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos>
+Targets:  <sos> 杨 扬 （ 女 ） <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos>
+Targets:  <sos> 党 员 登 记 表 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos>
+Targets:  <sos> 水 谣 阿 姨 好 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos>
+Targets:  <sos> <unk> 敏 （ 女 ） <eos>
+Decoded:  <unk> 我 的 的 ， <eos>
+Targets:  <sos> 恭 喜 娘 娘 <eos>
+Decoded:  <unk> 我 们 的 的 ，
+Targets:  <sos> 两 种 感 觉 <eos>
+Decoded:  <unk> 我 的 的 的 <eos>
+Targets:  <sos> 具 体 落 实 <eos>
+Decoded:  <unk> 我 ， <eos> <eos>
+Targets:  <sos> 半 生 熟 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 以 虹 彩 和 花 朵 ， 比 喻 容 态 美 丽 。 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 驴 蒙 虎 皮 ， 喻 同 “ 狐 假 虎 威 ” <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 凡 是 有 正 式 党 员 三 人 以 上 的 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 给 我 说 一 下 里 面 有 什 么 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 每 人 各 有 所 长 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos>
+Targets:  <sos> 有 实 践 经 验 ， <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 快 快 去 拿 水 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 相 互 激 励 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos>
+Targets:  <sos> 清 淡 点 的 ？ <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 节 约 使 用 。 <eos>
+Decoded:  <unk> 一 的 的 <eos> <eos> <eos>
+Targets:  <sos> 专 家 座 谈 时 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos>
+Targets:  <sos> 埋 头 苦 干 ， <eos>
+Decoded:  <unk> 这 的 的 。 <eos>
+Targets:  <sos> 也 是 这 样 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos>
+Targets:  <sos> 外 层 空 间 法 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos>
+Targets:  <sos> 状 态 的 宣 布 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos>
+Targets:  <sos> 本 地 区 统 战 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 发 展 能 力 不 断 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos>
+Targets:  <sos> 她 决 饶 不 了 我 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 里 环 境 恶 劣 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos>
+Targets:  <sos> 你 别 伤 着 他 们 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 杰 克 别 做 傻 事 <eos>
+Decoded:  <unk> 这 不 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 些 明 星 是 谁 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 最 根 本 的 是 ， <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 政 治 上 的 进 步 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 现 住 改 则 县 。 <eos>
+Decoded:  <unk> 会 会 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 维 护 社 会 秩 序 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 就 成 全 你 ， <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos> <eos>
+Targets:  <sos> 我 家 里 养 鸡 ， <eos>
+Decoded:  <unk> 国 国 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 稳 定 和 国 家 安 全 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 给 错 我 东 西 了 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 国 内 形 势 下 出 现 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 全 球 因 吸 毒 走 上 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 玩 藏 猫 猫 吧 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 这 个 必 要 吗 ？ <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 乐 于 主 动 承 认 。 <eos>
+Decoded:  <unk> 国 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 事 务 特 别 是 国 家 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 素 质 ， 与 提 高 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 如 今 正 在 翻 修 <eos>
+Decoded:  <unk> 我 的 人 ， <eos> <eos> <eos>
+Targets:  <sos> 面 向 广 大 人 民 <eos>
+Decoded:  <unk> 在 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 经 常 深 入 群 众 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos>
+Targets:  <sos> 三 农 支 出 亿 元 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos>
+Targets:  <sos> 上 学 的 假 期 ， <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos>
+Targets:  <sos> 我 有 过 敏 症 。 <eos>
+Decoded:  <unk> 这 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 昨 天 天 气 怎 样 ? <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 为 了 您 的 未 来 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 往 年 这 地 可 争 气 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 龙 刚 （ 苗 族 ） ， <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 取 消 我 点 的 吧 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 右 后 轮 胎 漏 气 了 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 这 是 什 么 事 情 呢 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 内 部 的 骄 奢 腐 化 <eos>
+Decoded:  <unk> 这 的 的 的 的 <eos> <eos> <eos>
+Targets:  <sos> 惊 人 的 数 字 表 明 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 书 记 员 仁 增 卓 嘎 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 勇 于 创 新 的 航 天 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 一 起 潜 水 。 <eos>
+Decoded:  <unk> 第 会 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 搞 军 事 集 团 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 件 毛 的 。 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 创 新 思 维 的 成 果 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 博 是 大 丰 富 多 <eos>
+Decoded:  <unk> 我 人 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 民 、 爱 劳 动 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 吴 文 俊 指 出 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 去 总 站 有 几 站 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 党 内 民 主 不 断 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 精 神 的 内 涵 很 <eos>
+Decoded:  <unk> 我 们 的 的 。
+Targets:  <sos> 悲 歌 愤 。 <eos>
+Decoded:  <unk> 我 的 的 的 <eos>
+Targets:  <sos> 要 式 证 券 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos>
+Targets:  <sos> 闻 过 则 喜 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 我 给 不 了 了 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos>
+Targets:  <sos> 肯 定 是 有 原 因 的 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 发 展 要 有 新 思 路 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 建 议 对 改 进 工 作 <eos>
+Decoded:  <unk> 这 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 而 发 展 成 三 叉 棘 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 团 结 和 引 导 这 些 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 公 平 正 义 和 促 进 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 积 极 性 和 主 动 性 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 都 了 解 清 楚 了 <eos>
+Decoded:  <unk> 我 们 的 的 。 <eos> <eos>
+Targets:  <sos> 我 伤 得 很 重 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 干 涉 别 国 内 政 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 你 今 天 真 漂 亮 。 <eos>
+Decoded:  <unk> 我 们 我 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 在 下 站 下 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 咖 啡 因 让 我 病 了 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 要 误 机 了 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 坚 持 改 革 开 放 。 <eos>
+Decoded:  <unk> 第 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 般 保 障 措 施 条 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 横 卧 在 床 上 休 息 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 扩 大 服 务 出 口 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos>
+Targets:  <sos> “ 据 专 家 估 计 <eos>
+Decoded:  <unk> 建 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 建 设 理 论 社 会 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos>
+Targets:  <sos> 营 中 倒 有 些 人 才 <eos>
+Decoded:  <unk> 我 不 不 ， ， <eos> <eos> <eos>
+Targets:  <sos> 金 屋 无 人 见 泪 痕 <eos>
+Decoded:  <unk> 他 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 京 津 风 沙 源 治 理 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos>
+Targets:  <sos> 只 少 有 一 个 荤 菜 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 单 日 票 多 少 钱 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos>
+Targets:  <sos> 这 是 件 礼 物 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos>
+Targets:  <sos> 今 天 的 乡 约 啊 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 你 说 散 就 散 呀 ！ <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 ，
+Targets:  <sos> 这 些 都 是 中 美 两 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos>
+Targets:  <sos> 很 适 合 种 植 红 枣 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 白 带 往 往 增 多 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos>
+Targets:  <sos> 女 人 偏 重 于 感 性 <eos>
+Decoded:  <unk> 我 们 们 的 的 的 ， <eos> <eos>
+Targets:  <sos> 我 要 再 加 一 点 洋 葱 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 果 汁 茶 还 是 牛 奶 。 <eos>
+Decoded:  <unk> 我 们 们 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 我 有 一 小 瓶 米 酒 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 然 后 你 再 去 打 电 话 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 我 最 喜 欢 猜 谜 语 了 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 红 包 得 大 把 的 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 救 助 体 系 基 本 建 立 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 我 会 住 在 公 园 旅 馆 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 房 间 服 务 还 没 有 到 <eos>
+Decoded:  <unk> 他 和 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 改 革 的 部 署 和 要 求 <eos>
+Decoded:  <unk> 我 们 在 的 的 ， <eos>
+Targets:  <sos> 他 触 目 伤 怀 ， <eos>
+Decoded:  <unk> 员 员 员 员 员 员 的 的
+Targets:  <sos> 委 员 、 候 补 委 员 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 有 什 么 不 一 样 啊 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 骑 马 比 步 行 速 度 快 。 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 然 他 们 非 要 等 急 了 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 和 他 们 的 家 人 在 一 起 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 的 态 度 是 一 贯 的 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 听 不 大 清 楚 你 说 的 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 本 病 的 传 染 性 极 强 ， <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 趟 火 车 在 巴 黎 停 吗 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 不 知 道 这 是 违 禁 品 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 部 门 对 本 条 例 的 执 行 <eos>
+Decoded:  <unk> 在 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 与 境 外 机 构 、 组 织 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 办 一 个 置 换 卡 吗 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 要 走 多 长 时 间 ？ <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 去 年 十 一 月 的 多 哈 <eos>
+Decoded:  <unk> 这 的 的 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 时 是 大 为 不 同 的 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 坚 持 爱 国 主 义 立 场 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 创 造 活 力 更 加 自 觉 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 如 果 你 找 到 请 告 我 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 好 多 东 西 当 时 还 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 给 我 一 杯 啤 酒 。 <eos>
+Decoded:  <unk> 他 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 寺 庙 负 责 人 或 民 主 <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 还 会 淘 汰 下 去 的 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 中 央 研 究 决 定 ， 党 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 管 理 社 区 自 我 管 理 <eos>
+Decoded:  <unk> 我 一 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 个 小 时 是 多 少 钱 ？ <eos>
+Decoded:  <unk> 第 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 金 融 工 作 的 指 导 方 针 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 论 遇 到 什 么 情 况 ， <eos>
+Decoded:  <unk> 会 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 应 该 受 到 社 会 的 尊 重 <eos>
+Decoded:  <unk> 政 政 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 管 理 部 门 和 地 方 政 府 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 内 容 时 长 1 5 : 0 2 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 给 我 叫 辆 救 护 车 。 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 请 去 问 一 下 柜 台 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 民 群 众 创 造 历 史 <eos>
+Decoded:  <unk> 在 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 解 放 军 指 战 员 团 结 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 明 天 的 天 气 怎 样 ？ <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 保 管 人 支 付 保 管 费 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 怎 么 寄 这 个 东 西 ？ <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 喜 欢 爬 那 儿 的 山 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 明 天 会 去 那 儿 吗 ？ <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 以 市 场 需 求 为 导 向 。 <eos>
+Decoded:  <unk> 我 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 全 年 下 降 3 . 2 7 % <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 今 天 不 就 给 你 买 了 <eos>
+Decoded:  <unk> 社 会 展 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 经 济 发 展 社 会 的 长 期 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 津 贴 制 度 博 士 后 制 度 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 学 习 历 史 的 正 确 方 法 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 女 生 还 应 该 尽 快 就 医 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 现 在 已 经 回 前 线 了 。 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 喂 饭 机 真 是 太 好 了 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 马 上 支 付 上 述 金 额 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 1 3 年 7 月 1 9 日 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 这 个 国 家 的 特 点 ， <eos>
+Decoded:  <unk> 不 不 不 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 死 了 ， 但 梦 想 不 会 死 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 是 这 里 的 一 个 游 客 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 家 的 门 板 用 了 几 块 . <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 实 践 越 来 越 紧 密 的 结 合 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 双 鞋 有 六 码 半 的 吗 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 足 部 分 应 由 韩 肖 、 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 重 大 事 务 的 综 合 协 调 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 计 划 当 一 名 医 生 。 <eos>
+Decoded:  <unk> 他 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 社 区 卫 生 服 务 为 基 础 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 各 项 事 业 就 会 全 面 兴 盛 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 竖 起 指 头 表 示 注 意 考 虑 <eos>
+Decoded:  <unk> 各 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 行 政 主 管 部 门 依 据 职 权 <eos>
+Decoded:  <unk> 我 们 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 政 府 官 员 等 进 行 了 教 育 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 至 少 是 有 同 等 价 值 的 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 大 约 有 两 百 美 元 的 现 金 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 真 是 癞 蛤 蟆 想 吃 天 鹅 肉 <eos>
+Decoded:  <unk> 我 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 靠 我 的 工 资 过 活 很 难 。 <eos>
+Decoded:  <unk> 我 们 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 说 我 心 里 难 受 不 难 受 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 来 到 这 里 就 不 要 客 气 了 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 把 我 的 包 送 到 这 个 酒 店 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 1 3 年 8 月 1 9 日 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 们 躲 得 过 初 一 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 的 相 机 出 了 点 儿 问 题 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 个 人 家 死 了 一 个 小 孩 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 可 以 试 这 个 样 品 吗 谢 谢 <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 的 家 庭 地 址 和 电 话 号 码 <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 关 西 藏 的 各 项 改 革 事 宜 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 综 合 国 力 有 了 大 幅 度 增 长 <eos>
+Decoded:  <unk> 我 们 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 里 面 还 要 涉 及 的 问 题 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 说 明 我 思 想 工 作 做 得 好 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 已 经 是 她 最 后 的 希 望 了 <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 准 备 去 他 的 妈 妈 家 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 时 ， 采 取 综 合 措 施 ， <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 可 继 发 炎 性 反 应 ， <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 预 警 预 报 网 络 体 系 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 们 到 齐 宝 镇 8 号 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 给 我 些 地 图 吗 ？ <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 自 觉 抵 制 不 良 倾 向 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 实 施 载 人 航 天 工 程 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 旦 侵 入 淋 巴 细 胞 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 未 经 估 量 莫 托 人 。 <eos>
+Decoded:  <unk> 学 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 教 育 科 学 文 化 水 平 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 军 事 委 员 会 由 下 列 <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 一 次 你 做 得 很 好 <eos>
+Decoded:  <unk> 我 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 搞 好 国 有 企 业 改 革 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 历 史 知 识 教 育 和 人 格 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 如 果 生 产 力 不 发 展 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 的 冒 险 精 神 哪 去 了 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 一 双 登 山 鞋 。 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 把 它 带 出 去 给 你 <eos>
+Decoded:  <unk> 在 是 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 今 天 是 五 四 青 年 节 , <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 党 能 够 领 导 人 民 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 说 过 的 话 一 定 算 数 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 给 我 来 些 柠 檬 水 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 提 前 一 天 离 开 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 出 租 车 还 没 到 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 到 三 路 巴 士 车 站 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 的 行 为 真 可 笑 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 建 议 我 去 哪 里 ？ <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 让 我 们 给 你 验 尿 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 爸 爸 以 被 虚 名 所 累 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 先 进 水 平 的 差 距 还 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 才 培 养 方 面 的 作 用 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 二 万 五 千 六 百 七 十 八 <eos>
+Decoded:  <unk> 党 党 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 基 层 党 组 织 党 员 队 伍 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 时 ， 生 产 资 料 价 格 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 能 等 三 十 分 钟 吗 ？ <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 中 午 抓 紧 时 间 睡 一 觉 <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 自 治 机 关 为 少 数 民 族 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 经 过 水 洗 ， 污 垢 全 净 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 有 不 同 大 小 的 。 <eos>
+Decoded:  <unk> 发 展 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 发 展 农 业 信 息 技 术 ， <eos>
+Decoded:  <unk> 我 们 ， ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 恐 怕 你 给 我 找 少 了 。 <eos>
+Decoded:  <unk> 这 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 着 力 于 培 养 选 拔 人 才 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 任 何 系 统 的 首 次 时 间 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 回 去 给 他 做 饭 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 几 天 天 气 暖 和 一 些 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 的 房 间 号 是 三 零 五 <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 万 某 某 的 诉 讼 请 求 。 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 事 先 分 别 报 县 市 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 个 老 师 教 我 们 ， <eos>
+Decoded:  <unk> 我 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 多 个 终 端 能 以 预 定 方 式 <eos>
+Decoded:  <unk> 我 人 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 妈 妈 看 中 了 我 看 不 中 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 必 须 要 走 多 远 的 路 <eos>
+Decoded:  <unk> 这 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 去 费 城 的 一 张 往 返 车 票 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 杯 浓 的 鸡 尾 酒 ， 谢 谢 <eos>
+Decoded:  <unk> 和 和 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 经 济 搞 好 了 教 育 搞 好 了 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 些 无 酒 精 饮 料 。 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 给 我 再 来 些 咖 啡 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 女 人 住 那 地 方 安 全 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 给 我 再 来 点 喝 的 吗 ？ <eos>
+Decoded:  <unk> 他 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 同 类 型 的 岗 位 责 任 制 <eos>
+Decoded:  <unk> 我 们 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 把 这 些 钱 换 成 里 拉 。 <eos>
+Decoded:  <unk> 他 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 十 六 大 报 告 要 充 分 反 映 <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 描 述 一 下 你 丢 的 东 西 。 <eos>
+Decoded:  <unk> 国 国 国 国 国 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 全 国 人 民 的 一 个 伟 大 胜 利 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 正 在 做 的 事 情 为 中 心 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 因 此 必 须 进 行 空 气 呼 吸 ； <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 问 ， 我 可 以 要 杯 可 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 在 它 里 面 有 一 个 洞 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 1 5 7 5 型 复 卷 机 一 套 、 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 体 制 的 初 步 改 革 也 为 谈 判 <eos>
+Decoded:  <unk> 这 是 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 你 什 么 时 候 开 的 小 卖 店 <eos>
+Decoded:  <unk> 不 不 不 不 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 人 活 着 跟 演 戏 差 不 多 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 4 . 2 0 1 6 年 1 月 ， <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 今 天 的 书 就 讲 到 这 里 吧 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 趟 巴 士 去 国 王 路 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 广 东 的 这 个 丹 霞 ， <eos>
+Decoded:  <unk> 我 们 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 什 么 前 面 还 有 大 斜 坡 呀 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 让 我 在 饭 店 门 口 下 车 <eos>
+Decoded:  <unk> 不 不 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 宗 教 活 动 场 所 常 住 人 员 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 所 以 我 放 在 低 危 这 里 ” <eos>
+Decoded:  <unk> 不 不 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 信 教 的 群 众 团 结 起 来 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 看 下 菜 单 ， 谢 谢 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 的 房 间 号 是 八 零 二 。 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 我 们 十 分 宝 贵 的 财 富 <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 觉 得 我 能 生 存 下 去 吗 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 你 为 什 么 总 是 上 学 迟 到 ? <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 把 日 元 换 成 美 元 ， 谢 谢 。 <eos>
+Decoded:  <unk> 我 不 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 两 个 成 人 的 一 个 儿 童 的 。 <eos>
+Decoded:  <unk> 政 政 制 制 制 制 制 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 其 政 治 制 度 和 政 党 制 度 也 <eos>
+Decoded:  <unk> 法 法 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 国 家 的 法 律 、 法 规 和 方 针 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 尽 快 把 我 的 工 作 做 完 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 大 旱 什 么 时 候 是 个 头 啊 <eos>
+Decoded:  <unk> 学 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 基 本 知 识 学 习 、 科 学 文 化 <eos>
+Decoded:  <unk> 人 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 用 人 单 位 的 违 法 犯 罪 行 为 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 有 香 奈 儿 水 晶 饰 品 吗 ？ <eos>
+Decoded:  <unk> 加 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 创 造 财 富 的 新 的 重 要 动 力 <eos>
+Decoded:  <unk> 我 们 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 2 ） 辨 认 笔 录 和 照 片 ， <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 如 果 可 能 的 话 让 隔 壁 位 子 空 着 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 可 是 我 把 我 的 眼 镜 落 在 屋 里 了 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 1 9 9 0 年 6 月 2 2 日 生 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 确 立 了 我 们 党 的 思 想 路 线 ， <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 藏 传 佛 教 的 发 展 过 程 中 ， <eos>
+Decoded:  <unk> 我 们 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 一 间 安 静 一 点 的 房 间 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 希 望 在 某 地 能 再 见 到 你 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 给 我 看 看 橱 窗 里 的 那 件 罩 衫 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 只 有 按 照 “ 三 个 代 表 ” 要 求 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 把 这 个 包 裹 寄 到 国 外 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 把 它 当 作 礼 物 包 装 ， 好 吗 <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 我 还 是 很 喜 欢 这 份 工 作 。 <eos>
+Decoded:  <unk> 要 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 三 要 努 力 成 就 自 己 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 去 费 城 在 哪 换 车 ？ <eos>
+Decoded:  <unk> 政 政 政 政 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 团 体 经 所 在 地 相 应 的 政 府 宗 教 事 务 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 2 0 1 6 ） 青 2 3 民 终 3 7 号 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 可 以 给 我 看 一 些 别 的 样 式 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 觉 得 他 的 整 套 服 装 是 那 么 性 感 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 眼 看 就 要 攻 下 西 夏 国 都 城 的 时 候 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 愿 望 圆 满 成 功 ， 因 而 感 到 高 兴 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 过 去 的 时 间 里 你 给 我 很 多 安 全 感 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 发 生 在 西 安 的 一 个 案 子 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 1 9 9 5 年 1 2 月 1 日 出 生 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 从 昨 天 开 始 肚 子 疼 的 厉 害 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 波 旁 威 士 忌 加 水 谢 谢 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 愿 你 能 来 过 感 恩 节 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 然 后 呢 她 未 婚 先 孕 ， <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 找 的 钱 是 美 元 。 <eos>
+Decoded:  <unk> 不 不 的 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 个 曾 经 和 你 生 活 ， <eos>
+Decoded:  <unk> 第 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 所 依 据 的 事 实 材 料 和 <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 宗 教 活 动 场 所 的 定 员 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 附 近 有 旅 行 社 吗 ？ <eos>
+Decoded:  <unk> 他 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 指 示 转 委 托 的 第 三 人 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 发 给 就 诊 方 便 卡 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 建 议 送 什 么 礼 物 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 用 日 元 付 帐 吗 ？ <eos>
+Decoded:  <unk> 我 的 、 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 居 住 、 卫 生 、 交 通 和 通 信 <eos>
+Decoded:  <unk> 我 们 我 ， 我 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 可 以 给 我 看 看 座 位 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 您 帮 我 做 箱 子 的 报 酬 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 这 个 的 退 款 谢 谢 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 汽 车 的 发 动 机 有 怪 声 。 <eos>
+Decoded:  <unk> 在 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 复 杂 局 面 和 艰 苦 环 境 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 各 种 类 型 的 。 <eos>
+Decoded:  <unk> 我 是 是 的 的 的 。 <eos> <eos>
+Targets:  <sos> 那 真 是 过 意 不 去 了 <eos>
+Decoded:  <unk> 会 会 会 会 的 。 <eos> <eos> <eos>
+Targets:  <sos> 监 事 会 会 议 记 录 、 <eos>
+Decoded:  <unk> 第 国 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 推 广 先 进 的 科 学 技 术 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 带 什 么 珠 宝 了 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 支 精 锐 部 队 制 伏 敌 人 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 要 个 有 双 人 床 的 房 间 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 违 反 本 法 第 五 十 二 条 规 定 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> “ 文 化 大 革 命 ” 结 束 后 ， <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 没 有 约 定 或 者 约 定 不 明 确 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 的 肝 脏 两 年 前 就 有 毛 病 <eos>
+Decoded:  <unk> 政 政 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 院 士 制 度 、 政 府 特 殊 津 贴 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 好 多 年 连 统 计 数 字 都 没 有 <eos>
+Decoded:  <unk> 他 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 用 法 用 量 ： 以 阿 莫 西 林 汁 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 实 行 宗 教 信 仰 自 由 政 策 ， <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 全 国 互 联 网 用 户 超 过 2 亿 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 确 立 了 凡 尔 赛 华 盛 顿 体 系 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 预 订 了 飞 往 东 京 的 航 班 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 失 主 特 意 赠 送 了 锦 旗 给 她 <eos>
+Decoded:  <unk> 这 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 因 其 感 染 与 自 身 行 为 有 关 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 小 刘 还 真 有 点 放 心 不 下 呢 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 使 垂 体 生 长 发 育 受 阻 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 应 该 怎 样 保 养 皮 肤 ？ <eos>
+Decoded:  <unk> 这 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 借 鉴 是 人 类 进 步 的 动 力 <eos>
+Decoded:  <unk> 加 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 加 大 知 识 产 权 保 护 力 度 <eos>
+Decoded:  <unk> 我 人 人 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 努 力 为 人 民 群 众 服 务 。 <eos>
+Decoded:  <unk> 他 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 法 式 色 拉 调 味 汁 ， 谢 谢 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 能 帮 我 预 订 个 餐 厅 吗 <eos>
+Decoded:  <unk> 作 作 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 当 前 要 突 出 抓 好 四 件 事 <eos>
+Decoded:  <unk> 第 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 把 持 一 部 分 工 人 团 体 ， <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 <eos> <eos> <eos>
+Targets:  <sos> 建 设 工 程 合 同 是 承 包 人 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 给 生 病 住 院 的 东 东 看 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 感 觉 有 亮 点 在 周 围 跳 动 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 龟 老 伯 ， 你 怎 么 来 了 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 要 亲 自 抓 知 识 分 子 工 作 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos>
+Targets:  <sos> 她 说 兼 职 是 双 刃 剑 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 大 陆 我 很 有 信 心 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 三 被 告 对 原 告 说 明 ， <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 动 员 并 策 划 拉 萨 骚 乱 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 现 在 四 环 路 上 还 堵 车 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 看 来 必 须 重 视 这 个 哪 吒 了 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 在 别 家 有 看 过 更 便 宜 的 <eos>
+Decoded:  <unk> 发 展 发 展 发 展 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 促 进 了 我 国 经 济 快 速 发 展 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 加 强 心 理 健 康 教 育 和 保 健 <eos>
+Decoded:  <unk> 我 们 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 她 填 上 了 ： 有 ， 艾 滋 病 <eos>
+Decoded:  <unk> 建 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 现 代 化 建 设 的 伟 大 实 践 <eos>
+Decoded:  <unk> 我 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 强 化 企 业 安 全 生 产 责 任 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 7 7 用 于 支 持 中 西 部 地 区 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 有 中 餐 厅 和 西 餐 厅 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 从 这 走 步 行 大 约 十 分 钟 。 <eos>
+Decoded:  <unk> 我 一 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 百 五 十 日 元 兑 换 一 美 元 <eos>
+Decoded:  <unk> 建 建 建 建 建 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 急 需 组 织 经 济 建 设 ， <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 身 高 五 英 尺 四 英 寸 。 <eos>
+Decoded:  <unk> 第 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 焚 烧 商 店 和 公 共 建 筑 ， <eos>
+Decoded:  <unk> 我 们 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 问 ， 我 可 以 要 甜 草 汁 啤 酒 吗 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 究 竟 是 什 么 样 的 魔 杖 我 很 好 奇 <eos>
+Decoded:  <unk> 教 教 教 教 教 教 教 教 教 教 <eos> <eos> <eos> <eos>
+Targets:  <sos> 团 结 和 民 族 、 宗 教 政 策 的 教 育 <eos>
+Decoded:  <unk> 这 这 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 爸 活 着 的 时 候 就 这 么 说 她 。 <eos>
+Decoded:  <unk> 我 们 们 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 您 回 来 后 还 住 在 我 们 酒 店 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 觉 得 人 类 他 的 生 存 的 能 力 ， <eos>
+Decoded:  <unk> 这 不 不 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 时 进 行 多 种 不 同 机 能 的 、 <eos>
+Decoded:  <unk> 我 们 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 对 学 习 一 点 儿 兴 趣 都 没 有 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 她 在 外 面 打 工 你 想 不 想 她 . <eos>
+Decoded:  <unk> 我 们 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 给 我 看 一 下 我 的 账 单 吗 ？ <eos>
+Decoded:  <unk> 这 是 是 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 可 以 问 一 下 那 是 什 么 菜 吗 <eos>
+Decoded:  <unk> 我 们 ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 三 坚 持 和 健 全 民 主 集 中 制 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 个 饭 店 里 有 人 会 说 日 语 吗 ？ <eos>
+Decoded:  <unk> 这 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 针 对 性 地 开 展 湿 地 保 护 宣 传 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 打 击 恐 怖 主 义 采 取 双 重 标 准 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 说 你 怎 么 脸 拉 那 么 长 呢 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 介 意 把 那 个 窗 户 关 上 吗 ？ <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 去 华 盛 顿 的 往 返 旅 程 的 票 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 从 来 都 不 去 鹭 鸟 呆 的 古 <unk> 岛 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 所 以 有 人 说 高 性 能 计 算 机 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 要 两 张 七 点 的 航 班 的 座 位 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 九 、  国 际 形 势 和 对 外 工 作 <eos>
+Decoded:  <unk> 我 们 ， 不 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 沿 着 这 条 街 往 回 走 两 个 街 区 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 个 姬 昌 当 初 就 不 应 该 放 过 他 <eos>
+Decoded:  <unk> 我 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 个 护 身 符 会 带 你 找 到 大 地 之 脉 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> ( 哈 ， 哈 ， 这 个 玩 笑 真 有 趣 。 ) <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 要 有 坚 韧 不 拔 的 充 分 思 想 准 备 ， <eos>
+Decoded:  <unk> 在 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 过 第 三 大 街 的 十 字 路 口 和 三 十 四 <eos>
+Decoded:  <unk> 我 们 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 能 停 在 这 个 国 家 的 任 何 地 方 吗 ？ <eos>
+Decoded:  <unk> 我 会 会 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 在 西 藏 制 造 社 会 动 乱 的 总 根 源 ， <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 随 着 世 界 上 香 烟 消 费 量 的 增 长 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 也 不 看 看 自 己 是 谁 ， 还 想 打 大 王 <eos>
+Decoded:  <unk> 这 有 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 那 样 的 地 方 一 住 能 住 多 久 啊 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 怎 么 能 说 一 个 好 老 师 疯 狂 呢 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 让 他 回 来 后 尽 快 给 我 回 电 话 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 打 一 个 对 方 付 费 的 电 话 。 <eos>
+Decoded:  <unk> 我 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 个 人 名 利 ， 万 万 争 不 得 。  <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 4 . 教 育 青 少 年 为 预 防 吸 毒 <eos>
+Decoded:  <unk> 第 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 深 入 贯 彻 落 实 科 学 发 展 观 <eos>
+Decoded:  <unk> 他 法 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 切 实 保 障 教 师 的 合 法 权 益 ， <eos>
+Decoded:  <unk> 不 不 不 不 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 任 何 单 位 不 得 附 加 其 他 条 件 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 刚 开 始 原 、 被 告 感 情 尚 好 ， <eos>
+Decoded:  <unk> 我 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 首 先 解 决 米 行 罢 市 的 问 题 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 个 人 应 该 有 社 会 责 任 感 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 还 是 攀 住 破 船 倒 比 较 好 些 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 就 是 聋 子 也 会 被 它 吵 得 受 不 下 去 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 从 那 些 碗 中 间 选 一 个 没 有 裂 缝 的 ! <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 为 什 么 不 和 我 们 一 起 吃 午 餐 呢 ？ <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 且 本 人 愿 意 与 原 告 共 同 生 活 。 <eos>
+Decoded:  <unk> 要 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 开 发 西 部 地 区 应 该 是 全 面 的 ， <eos>
+Decoded:  <unk> 这 这 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 没 有 理 由 相 信 这 样 的 关 系 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 很 多 村 民 们 积 极 性 开 始 低 落 <eos>
+Decoded:  <unk> 有 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 守 住 了 土 地 就 守 住 了 一 切 . <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 综 合 治 理 工 作 进 一 步 加 强 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 民 族 分 裂 主 义 势 力 有 所 抬 头 <eos>
+Decoded:  <unk> 第 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 新 的 技 术 成 果 ， 属 于 委 托 人 <eos>
+Decoded:  <unk> 国 国 政 政 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 基 本 准 则 和 本 国 政 府 的 立 场 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 告 诉 我 电 话 号 码 叫 辆 救 护 车 <eos>
+Decoded:  <unk> 我 是 是 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 到 底 是 一 个 什 么 样 的 怪 病 呢 ， <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 么 在 不 远 的 将 来 航 天 技 术 奖 <eos>
+Decoded:  <unk> 在 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 关 于 老 干 部 离 职 休 养 的 暂 行 规 定 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 他 居 然 有 月 球 上 的 土 地 使 用 证 。 <eos>
+Decoded:  <unk> 这 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 大 师 说 的 这 个 宝 贝 就 是 在 东 海 龙 宫 <eos>
+Decoded:  <unk> 我 们 ， ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 可 以 告 诉 他 我 给 他 打 过 电 话 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 因 为 要 在 复 杂 的 国 内 外 形 势 下 <eos>
+Decoded:  <unk> 社 会 主 义 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 巩 固 和 发 展 社 会 主 义 的 民 族 关 系 <eos>
+Decoded:  <unk> 人 人 人 人 人 人 人 人 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 企 业 管 理 人 员 和 技 术 人 员 到 经 济 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 一 真 理 领 导 我 们 继 续 前 进 。 <eos>
+Decoded:  <unk> 国 国 国 国 国 国 国 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 中 华 人 民 共 和 国 科 学 技 术 部 ， <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 青 海 的 达 赖 喇 嘛 及 其 流 亡 集 团 <eos>
+Decoded:  <unk> 在 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 日 本 东 京 地 方 法 院 因 毒 气 事 件 <eos>
+Decoded:  <unk> 我 国 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 最 后 他 被 强 迫 离 开 自 己 的 祖 国 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 要 像 这 一 样 ， 用 手 腕 紧 握 着 你 的 球 棒 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 藏 獒 咬 人 有 一 特 点 ， 那 就 是 一 旦 咬 住 ， 决 不 松 口 ， <eos>
+Decoded:  <unk> 我 们 人 人 人 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 2 0 1 6 ） 青 2 5 2 3 民 初 4 5 5 - 1 号 <eos>
+Decoded:  <unk> 我 们 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 . 黄 河 滩 地 转 让 （ 承 包 ） 合 同 一 份 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 受 到 经 济 不 景 气 爆 发 的 直 接 影 响 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 你 可 以 给 我 看 看 在 窗 户 里 的 那 个 吗 ？ <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 即 自 2 0 1 5 年 1 月 8 日 起 至 2 0 2 3 年 2 月 7 日 止 。 <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 因 为 屈 服 于 强 权 ， 终 于 受 到 蹂 躏 。 <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 第 五 ， 要 积 极 参 与 多 边 外 交 活 动 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 石 头 虽 小 砌 成 山 ， 羊 毛 虽 细 擀 成 毡 <eos>
+Decoded:  <unk> 我 们 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 有 所 在 宗 教 活 动 场 所 的 常 住 户 口 ， <eos>
+Decoded:  <unk> 我 们 民 民 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 还 是 要 发 挥 人 民 战 争 的 威 力 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 那 你 刚 刚 为 什 么 不 接 受 她 新 进 的 药 呢 <eos>
+Decoded:  <unk> 他 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 形 成 小 群 ， 环 绕 在 其 他 物 种 的 周 围 。 <eos>
+Decoded:  <unk> 我 们 我 们 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 噢 ， 我 觉 得 我 不 太 同 意 那 样 的 想 法 。 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 5 月 2 7 日 撤 离 & q u o t ; 来 看 ， <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 一 章 中 已 经 讨 论 过 的 若 干 类 事 实 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 就 把 这 座 玲 珑 塔 交 给 你 的 爸 爸 妈 妈 保 管 <eos>
+Decoded:  <unk> 我 们 们 们 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 只 是 稍 微 不 明 显 地 看 到 了 这 种 适 应 ； <eos>
+Decoded:  <unk> 我 们 们 们 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 必 须 要 把 我 们 的 相 机 放 在 入 口 处 吗 ？ <eos>
+Decoded:  <unk> 我 人 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 其 贵 族 握 有 大 权 ， 势 力 浩 大 ， 贵 族 对 佃 农 ， <eos>
+Decoded:  <unk> 我 们 们 们 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 被 邀 请 来 这 里 介 绍 一 下 我 们 的 新 产 品 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 暑 假 里 我 几 乎 每 天 都 要 看 你 打 篮 球 。 <eos>
+Decoded:  <unk> 我 们 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 为 什 么 不 在 我 办 公 楼 前 面 碰 面 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 ， <eos>
+Targets:  <sos> 巩 固 和 加 强 农 业 基 础 。 <eos>
+Decoded:  <unk> 大 大 的 的 的 的 的 ， <eos>
+Targets:  <sos> 中 大 国 摆 脱 不 发 达 <eos>
+Decoded:  <unk> 我 是 的 的 的 的 的 的 的 ，
+Targets:  <sos> 我 的 前 身 就 是 佛 弟 子 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 它 们 自 己 甚 至 不 会 吃 东 西 ， 因 而 许 多 蚂 蚁 就 此 饿 死 了 。 <eos>
+Decoded:  <unk> 我 人 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 比 方 说 ： “ 己 所 不 欲 ， 勿 施 于 人 ” 。 自 己 不 愿 意 的 事 ， <eos>
+Decoded:  <unk> 我 们 不 不 不 ， 不 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 风 里 浪 里 的 ， 早 就 练 了 一 副 ， 天 不 怕 地 不 怕 的 脾 气 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 避 免 患 上 严 重 疾 病 的 最 好 的 方 法 是 早 点 发 现 它 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 最 近 一 段 时 间 以 来 有 各 种 各 样 的 解 释 ， 。 <eos>
+Decoded:  <unk> 我 是 是 的 的 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 而 应 该 把 它 看 作 是 旅 游 消 费 的 一 部 分 。 <eos>
+Decoded:  <unk> 这 这 是 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 这 二 种 能 力 并 不 一 定 伴 随 在 一 起 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 说 到 出 门 吧 既 增 长 的 见 识 又 有 奇 遇 惊 喜 <eos>
+Decoded:  <unk> 我 们 在 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 也 从 来 没 有 一 个 人 像 他 那 样 热 心 地 、 <eos>
+Decoded:  <unk> 我 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 为 了 群 众 、 一 切 依 靠 群 众 <eos>
+Decoded:  <unk> 国 国 国 国 国 国 国 国 国 的 <eos>
+Targets:  <sos> 中 华 人 民 共 和 国 消 防 法 <eos>
+Decoded:  <unk> 我 们 们 的 的 的 的 的 的
+Targets:  <sos> 预 防 艾 滋 善 待 生 命 <eos>
+Decoded:  <unk> 我 们 我 们 ， 我 ， ， <eos> ， <eos> ，
+Targets:  <sos> 其 实 我 比 他 们 更 爱 姥 姥 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 纽 约 的 地 铁 是 全 天 运 行 吗 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 因 为 器 官 愈 专 业 化 或 分 化 <eos>
+Decoded:  <unk> 社 社 社 社 会 主 义 义 义 义 义
+Targets:  <sos> 文 明 的 社 会 主 义 现 代 化 <eos>
+Decoded:  <unk> 我 们 的 ， ， <eos> ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 努 力 ， 给 部 队 烧 饭 送 水 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 港 澳 台 工 作 进 一 步 加 强 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 不 断 向 前 发 展 的 必 然 要 求 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 的 的 <eos>
+Targets:  <sos> 是 超 预 算 收 入 使 用 的 原 则 <eos>
+Decoded:  <unk> 我 们 我 们 的 的 ， <eos> ， <eos> <eos>
+Targets:  <sos> 我 在 哪 坐 去 机 场 的 大 巴 <eos>
+Decoded:  <unk> 、 、 、 、 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 公 务 员 的 义 务 、 权 利 和 管 理 ， <eos>
+Decoded:  <unk> 加 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 加 快 农 村 地 区 宽 带 网 络 建 设 ， <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 祖 国 完 全 统 一 就 一 定 能 够 实 现 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 换 一 间 能 看 到 海 景 的 房 间 <eos>
+Decoded:  <unk> 我 们 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 宗 教 有 其 发 生 、 发 展 和 消 亡 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 租 两 开 门 的 自 动 档 的 车 <eos>
+Decoded:  <unk> 我 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 债 务 的 标 的 不 适 于 强 制 履 行 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 的 茅 草 屋 安 居 房 改 造 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 与 被 告 人 老 某 某 相 互 配 合 、 <eos>
+Decoded:  <unk> 我 有 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 每 日 平 均 吸 烟 数 量 增 加 两 支 <eos>
+Decoded:  <unk> 我 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 不 能 放 任 不 管 、 姑 息 养 奸 。 <eos>
+Decoded:  <unk> 在 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 机 制 和 全 美 证 券 交 易 商 协 会 <eos>
+Decoded:  <unk> 在 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 社 会 发 展 一 定 阶 段 的 历 史 现 象 <eos>
+Decoded:  <unk> 我 们 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 去 橡 树 屋 吃 午 餐 怎 么 样 ？ <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 社 会 和 谐 稳 定 的 重 要 保 证 。 <eos>
+Decoded:  <unk> 第 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 二 ） 加 强 基 层 基 础 工 作 。 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 学 校 不 仅 是 学 习 知 识 的 天 堂 <eos>
+Decoded:  <unk> 国 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 和 平 解 决 国 际 争 端 总 议 定 书 <eos>
+Decoded:  <unk> 员 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 委 员 会 委 员 和 独 立 管 理 经 费 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 本 单 位 工 作 提 出 批 评 与 建 议 <eos>
+Decoded:  <unk> 国 国 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 技 术 水 平 同 发 达 国 家 相 比 还 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 。 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 实 现 志 向 ， 提 供 了 广 大 的 舞 台 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 沿 海 地 区 特 别 需 要 在 广 大 干 部 <eos>
+Decoded:  <unk> 第 经 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 心 协 力 ， 围 绕 经 济 建 设 开 展 <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 电 气 化 铁 路 投 产 里 程 9 3 8 公 里 ； <eos>
+Decoded:  <unk> 我 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 是 推 进 跨 越 式 发 展 和 长 治 久 安 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 党 内 绝 大 部 分 同 志 对 统 战 工 作 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 尤 其 对 人 口 预 期 寿 命 影 响 ） ； <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 在 十 月 十 七 号 之 前 都 呆 在 这 里 <eos>
+Decoded:  <unk> 我 们 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 仅 认 识 面 孔 ， 不 大 能 够 了 解 思 想 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 接 旗 的 不 是 刘 家 的 儿 媳 妇 孙 燕 波 吗 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 提 高 中 华 民 族 素 质 的 主 渠 道 <eos>
+Decoded:  <unk> 党 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 由 中 央 政 治 局 决 定 开 除 其 党 籍 ； <eos>
+Decoded:  <unk> 第 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 时 影 响 发 展 的 体 制 机 制 障 碍 <eos>
+Decoded:  <unk> 经 济 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 违 反 财 经 纪 律 的 现 象 作 斗 争 <eos>
+Decoded:  <unk> 经 济 展 发 展 发 展 。 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 帮 助 贫 困 地 区 发 展 经 济 文 化 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 关 起 门 来 搞 建 设 是 不 能 成 功 的 。 <eos>
+Decoded:  <unk> 中 的 工 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 军 委 工 作 实 际 上 就 是 两 件 事 <eos>
+Decoded:  <unk> 他 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 确 保 基 本 农 田 总 量 不 减 少 。 <eos>
+Decoded:  <unk> 要 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 第 二 必 须 坚 持 无 产 阶 级 专 政 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 明 天 下 午 去 看 棒 球 比 赛 怎 样 ？ <eos>
+Decoded:  <unk> 这 物 物 物 物 的 物 的 物 的 物 的 <eos>
+Targets:  <sos> 有 若 干 理 由 可 以 使 我 们 相 信 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 党 的 十 一 届 三 中 全 会 以 来 ， <eos>
+Decoded:  <unk> 建 国 工 作 的 工 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 邓 小 平 同 志 在 主 持 军 委 工 作 <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 领 导 会 自 己 夸 夸 说 不 耐 烦 听 <eos>
+Decoded:  <unk> 我 们 人 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 绝 不 允 许 以 权 谋 私 贪 赃 枉 法 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 才 能 正 常 地 、 有 秩 序 地 组 织 生 产 。 <eos>
+Decoded:  <unk> 民 民 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 也 是 最 大 限 度 团 结 人 民 群 众 的 需 要 <eos>
+Decoded:  <unk> 要 国 民 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 必 须 毫 无 例 外 地 实 行 民 主 管 理 ， <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 它 们 与 （ A ） 的 后 代 大 不 相 同 <eos>
+Decoded:  <unk> 我 的 、 、 、 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 上 诉 人 （ 原 审 原 告 ） 黎 洪 平 ， <eos>
+Decoded:  <unk> 这 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 学 得 好 的 影 响 和 带 动 学 得 不 太 好 的 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 豆 腐 要 卤 四 五 次 才 能 够 卖 才 卤 的 好 <eos>
+Decoded:  <unk> 这 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 明 天 为 孩 子 们 举 办 的 家 庭 才 艺 表 演 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 全 面 贯 彻 党 的 宗 教 信 仰 自 由 政 策 ， <eos>
+Decoded:  <unk> 人 人 人 人 的 人 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 三 名 上 诉 人 及 其 委 托 代 理 人 称 ， <eos>
+Decoded:  <unk> 在 的 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 宗 教 存 在 的 基 础 和 条 件 将 逐 渐 减 少 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 党 要 始 终 做 到 “ 三 个 代 表 ” <eos>
+Decoded:  <unk> 加 、 、 、 、 、 、 、 <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 七 ） 组 建 住 房 和 城 乡 建 设 部 。 <eos>
+Decoded:  <unk> 中 会 会 会 会 会 会 的 会 的 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 位 一 体 的 中 国 特 色 社 会 主 义 事 业 <eos>
+Decoded:  <unk> 在 们 在 的 的 的 的 的 的 的 的 的 的 的 ， <eos> ， <eos> <eos>
+Targets:  <sos> — — 在 任 何 一 个 地 质 层 中 中 间 变 种 的 缺 乏 <eos>
+Decoded:  <unk> 在 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 培 养 具 有 高 度 科 学 文 化 水 平 的 劳 动 者 <eos>
+Decoded:  <unk> 我 们 的 一 的 的 的 的 的 的 的 的 的 ， <eos> ， <eos>
+Targets:  <sos> 结 果 把 他 家 的 狼 狗 ， 放 出 来 去 咬 人 ， <eos>
+Decoded:  <unk> 我 们 们 们 的 的 ， ， ， ， ， ， ， ， ， <eos> ，
+Targets:  <sos> 我 该 什 么 时 候 走 能 赶 上 十 二 点 的 飞 机 <eos>
+Decoded:  <unk> 我 们 一 的 的 ， ， ， ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 对 于 蜂 或 其 他 昆 虫 可 能 是 有 利 的 ， <eos>
+Decoded:  <unk> 这 一 的 的 的 的 的 ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 缺 乏 勇 气 的 军 官 ， 如 同 狐 狸 穿 铠 甲 。 <eos>
+Decoded:  <unk> 我 们 们 的 的 的 ， ， ， ， ， ， <eos> ， <eos> ， <eos>
+Targets:  <sos> 小 孩 食 量 父 母 管 ， 成 人 食 量 自 心 管 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 的 的 的 的 ， <eos> <eos>
+Targets:  <sos> 你 曾 是 照 进 我 生 命 中 的 最 耀 眼 的 光 芒 <eos>
+Decoded:  <unk> 这 是 是 是 是 是 是 是 是 是 是 是 是 是 是
+Targets:  <sos> 现 在 盖 善 伙 食 根 本 就 是 天 方 夜 谭 <eos>
+Decoded:  <unk> 一 、 、 、 、 、 、 、 、 、 、 、 、 、
+Targets:  <sos> 炊 烟 袅 娜 ， 苍 绿 欲 滴 的 果 蔬 ， <eos>
+Decoded:  <unk> 我 们 们 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 以 致 丧 失 了 它 的 出 身 的 一 切 痕 迹 ， <eos>
+Decoded:  <unk> 不 人 人 人 人 人 人 的 人 的 人 的 的 的 的 的
+Targets:  <sos> 它 们 从 不 咬 去 和 修 光 蜂 房 的 角 的 。 <eos>
+Decoded:  <unk> 社 社 社 社 社 会 主 义 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 斗 争 的 特 点 和 发 展 社 会 主 义 市 场 经 济 <eos>
+Decoded:  <unk> 不 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 适 应 各 类 残 疾 人 的 不 同 特 点 和 需 要 ， <eos>
+Decoded:  <unk> 这 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 能 在 这 办 联 合 航 空 公 司 的 登 机 手 续 吗 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 社 区 成 了 各 类 矛 盾 反 映 比 较 敏 感 的 汇 聚 地 。 <eos>
+Decoded:  <unk> 我 有 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 1 5 年 的 草 山 由 马 外 力 有 享 有 采 挖 权 。 <eos>
+Decoded:  <unk> 我 国 国 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> （ 1 9 9 7 年 6 月 5 日 ） 甘 肃 省 宗 教 事 务 局 <eos>
+Decoded:  <unk> 我 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 前 期 的 和 早 期 的 发 育 阶 段 会 很 快 地 结 束 ， <eos>
+Decoded:  <unk> 我 们 我 们 ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 大 军 ， 大 军 ， 拿 着 去 ， 这 点 是 我 的 心 意 … <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 口 头 虽 说 了 很 多 漂 亮 话 ， 还 不 知 实 际 如 何 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 关 于 时 间 的 问 题 ， 以 后 一 定 还 要 讨 论 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 电 话 号 码 是 东 京 零 三 三 二 零 零 五 一 六 六 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 你 没 感 染 上 艾 滋 病 之 前 我 们 并 不 相 识 ， <eos>
+Decoded:  <unk> 我 们 的 ， ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 没 有 恒 心 者 的 结 局 ， 就 象 跑 街 窜 巷 的 老 狗 。 <eos>
+Decoded:  <unk> 我 们 一 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 火 灾 发 生 后 他 们 发 现 饭 店 未 办 理 过 火 灾 保 险 <eos>
+Decoded:  <unk> 我 、 、 、 、 、 、 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 众 生 间 的 相 互 关 系 ， 就 是 前 世 命 中 注 定 ， <eos>
+Decoded:  <unk> 我 们 们 们 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 但 是 我 们 可 以 给 您 一 间 面 对 大 海 的 双 人 间 <eos>
+Decoded:  <unk> 这 在 有 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 再 加 上 农 村 还 有 一 亿 五 千 万 富 余 劳 动 力 <eos>
+Decoded:  <unk> 我 的 ， ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 国 南 方 地 区 出 现 的 低 温 雨 雪 冰 冻 灾 害 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 的 的 的 的 的 的 <eos> <eos> <eos> <eos>
+Targets:  <sos> 同 时 因 为 它 们 容 易 在 幽 禁 状 态 下 生 育 ， <eos>
+Decoded:  <unk> 我 们 ， ， ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 一 旦 失 去 控 制 ， 世 界 更 会 为 之 震 撼 。 <eos>
+Decoded:  <unk> 工 工 工 工 业 工 作 业 业 业 业 业 <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 事 业 组 织 的 职 工 和 国 家 机 关 工 作 人 员 <eos>
+Decoded:  <unk> 我 们 我 ， ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 丈 夫 渠 拥 军 打 电 话 让 我 赶 快 到 医 院 来 ， <eos>
+Decoded:  <unk> 我 们 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 处 十 年 以 上 有 期 徒 刑 或 者 无 期 徒 刑 ， <eos>
+Decoded:  <unk> 在 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 0 8 年 1 2 月 1 0 日 刑 满 释 放 。 <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 的 的 的 的 。 <eos> <eos> <eos> <eos>
+Targets:  <sos> 3 既 往 有 血 栓 性 疾 病 严 重 偏 头 痛 等 病 史 <eos>
+Decoded:  <unk> 这 这 的 的 ， ， ， ， ， ， ， <eos> ， <eos> ， <eos> ， <eos>
+Targets:  <sos> 为 什 么 现 在 我 特 别 强 调 第 三 世 界 这 一 点 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 <eos>
+Targets:  <sos> 上 述 做 法 完 全 符 合 劳 动 合 同 法 规 定 ， <eos>
+Decoded:  <unk> 我 们 这 的 的 的 的 的 ， <eos> ， <eos> ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 想 吃 一 顿 每 人 三 十 美 元 以 下 的 晚 餐 <eos>
+Decoded:  <unk> 我 们 国 国 的 ， ， ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 在 我 国 ， 佛 教 已 有 二 千 年 左 右 的 历 史 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 是 他 们 解 放 了 她 。 所 以 奶 奶 在 临 终 前 ， 嘱 咐 我 们 ， <eos>
+Decoded:  <unk> 他 们 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 每 天 都 可 以 看 到 因 贪 图 别 人 的 财 产 而 受 到 惩 罚 的 人 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 老 狗 撒 欢 是 高 兴 的 表 现 ， 阎 王 发 笑 却 预 示 着 杀 人 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 等 飞 机 起 飞 以 后 ， 麻 烦 你 ， 请 你 把 它 转 交 给 他 们 <eos>
+Decoded:  <unk> 他 人 人 的 人 的 的 的 的 的 的 的 。 <eos> <eos> 。 <eos> <eos> 。 <eos> <eos> 。
+Targets:  <sos> 其 身 份 对 同 一 消 息 的 其 他 接 收 方 不 透 露 的 接 收 方 <eos>
+Decoded:  <unk> 在 在 在 的 的 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 这 是 2 0 岁 的 她 在 妇 女 教 养 所 里 讲 的 故 事 <eos>
+Decoded:  <unk> 我 们 的 的 的 ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 访 问 拉 丁 美 洲 期 间 在 智 利 圣 地 亚 哥 联 合 国 <eos>
+Decoded:  <unk> 我 们 我 们 我 们 的 ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 们 可 以 说 ， 每 个 月 基 本 上 可 以 平 均 5 0 0 到 6 0 0 元 。 ” <eos>
+Decoded:  <unk> 这 是 是 是 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 <eos> <eos>
+Targets:  <sos> 此 处 谈 到 的 爱 是 指 由 诸 般 的 爱 汇 集 而 生 的 工 作 之 爱 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 并 且 它 们 也 不 能 在 鸟 类 的 嗉 囊 或 肠 子 里 长 久 携 带 。 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， <eos> ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 2 0 0 0 至 2 0 0 3 年 新 疆 维 吾 尔 自 治 区 党 委 副 书 记 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 我 用 信 用 卡 买 衣 服 的 时 候 必 须 给 他 们 看 护 照 。 <eos>
+Decoded:  <unk> 这 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 临 床 表 现 与 1 9 8 3 年 发 现 的 病 毒 相 似 ， <eos>
+Decoded:  <unk> 我 们 我 的 ， ， ， ， ， ， ， ， ， ， <eos> ， <eos> ， <eos>
+Targets:  <sos> 到 处 鼓 吹 “ 西 藏 一 直 是 个 独 立 的 国 家 ” ， <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 在 上 升 期 间 ， 大 概 会 出 现 极 多 的 生 物 变 异 ， <eos>
+Decoded:  <unk> 我 们 们 们 们 们 的 的 ， ， ， <eos> ， <eos> ， <eos> <eos> <eos> <eos>
+Targets:  <sos> 请 你 明 天 同 一 时 间 ， 继 续 关 注 我 们 的 节 目 <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， ， <eos> ， <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 雄 性 食 肉 动 物 本 已 很 好 地 被 武 装 起 来 了 ； <eos>
+Decoded:  <unk> 我 们 的 的 的 的 的 的 的 的 的 的 ， <eos> <eos> <eos> <eos> <eos> <eos>
+Targets:  <sos> 达 赖 及 其 “ 流 亡 政 府 ” 没 有 任 何 合 法 性 ， <eos>
+Decoded:  <unk> 我 们 的 的 的 的 ， ， ， <eos> ， <eos> ， <eos> ， <eos> <eos> <eos>
+Targets:  <sos> 党 必 须 适 应 形 势 的 发 展 和 情 况 的 变 化 ， <eos>
+Decoded:  <unk> 中 中 有 中 有 中 有 中 有 中 有 有 有 有 有 有 有 有 有 有 有 有 有 有 有 有 有
+Targets:  <sos> 对 具 有 概 率 p （ x i ） … p （ x n ） 的 事 件 集 合 x 1 … x n <eos>
+Decoded:  <unk> 中 中 一 中 中 的 中 的 中 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 但 目 前 克 罗 尔 先 生 在 一 系 列 可 称 赞 的 文 章 里 曾 企 图 说 明 ， <eos>
+Decoded:  <unk> 我 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的
+Targets:  <sos> 作 为 人 体 的 防 御 卫 队 对 机 体 起 着 良 好 的 “ 防 御 ” 作 用 ， <eos>
+Decoded:  <unk> 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不 不
+Targets:  <sos> 就 是 说 不 同 的 人 啊 ， 不 同 的 职 业 ， 不 同 的 风 格 不 一 样 。 <eos>
