@@ -1,3 +1,4 @@
 result_encoder1
 log_hiddensize256
 .save
+val_nmt_result1.txt
