@@ -52,6 +52,8 @@ def parse_arguments():
                    help='the path of segmentation result.')
     p.add_argument('-nmt_result_file', type=str, default=None,
                    help='the path of neural machine translation result.')
+    p.add_argument('-save_path', type=str, default='checkpoints',
+                   help='the path of training model.')
     return p.parse_args()
 
 def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = None):
@@ -541,11 +543,11 @@ def main_ctc(args, f_out, f_inf, hidden_size, embed_size):
             print("Saving model...")
             f_out.write("Saving model...\n")
             f_out.flush()
-            if not os.path.isdir(".save"):
-                os.makedirs(".save")
-            torch.save(seq2seq.state_dict(), './.save/seq2seq_%d.pt' % (e))
+            if not os.path.isdir(args.save_path):
+                os.makedirs(args.save_path)
+            torch.save(seq2seq.state_dict(), './%s/seq2seq_%d.pt' % (args.save_path, e))
             best_val_loss = val_loss
-            best_model_path = './.save/seq2seq_' + str(e) + '.pt'
+            best_model_path = './' + args.save_path + '/seq2seq_' + str(e) + '.pt'
             best_val_loss = val_loss
         elif val_loss > best_val_loss:
             increasingNumber = increasingNumber + 1
@@ -617,10 +619,10 @@ def main_nmt(args, f_out, hidden_size, embed_size):
             print("Saving model...")
             f_out.write("Saving model...\n")
             f_out.flush()
-            if not os.path.isdir(".save"):
-                os.makedirs(".save")
-            torch.save(seq2seq.state_dict(), './.save/seq2seq_%d.pt' % (e))
-            best_model_path = './.save/seq2seq_' + str(e) + '.pt'
+            if not os.path.isdir(args.save_path):
+                os.makedirs(args.save_path)
+            torch.save(seq2seq.state_dict(), './%s/seq2seq_%d.pt' % (args.save_path, e))
+            best_model_path = './' + args.save_path + '/seq2seq_' + str(e) + '.pt'
             best_val_loss = val_loss
         elif val_loss > best_val_loss:
             increasingNumber = increasingNumber + 1
@@ -702,10 +704,10 @@ def main_combine(args, f_out, hidden_size, embed_size):
             print("Saving model...")
             f_out.write("Saving model...\n")
             f_out.flush()
-            if not os.path.isdir(".save"):
-                os.makedirs(".save")
-            torch.save(seq2seq.state_dict(), './.save/seq2seq_%d.pt' % (e))
-            best_model_path = './.save/seq2seq_' + str(e) + '.pt'
+            if not os.path.isdir(args.save_path):
+                os.makedirs(args.save_path)
+            torch.save(seq2seq.state_dict(), './%s/seq2seq_%d.pt' % (args.save_path, e))
+            best_model_path = './' + args.save_path + '/seq2seq_' + str(e) + '.pt'
             best_val_loss = val_loss
         elif val_loss > best_val_loss:
             increasingNumber = increasingNumber + 1
@@ -787,11 +789,11 @@ def main_refine(args, f_out, f_inf, hidden_size, embed_size):
             print("Saving model...")
             f_out.write("Saving model...\n")
             f_out.flush()
-            if not os.path.isdir(".save"):
-                os.makedirs(".save")
-            torch.save(seq2seq.state_dict(), './.save/seq2seq_%d.pt' % (e))
+            if not os.path.isdir(args.save_path):
+                os.makedirs(args.save_path)
+            torch.save(seq2seq.state_dict(), './%s/seq2seq_%d.pt' % (args.save_path, e))
             best_val_loss = val_loss
-            best_model_path = './.save/seq2seq_' + str(e) + '.pt'
+            best_model_path = './' + args.save_path + '/seq2seq_' + str(e) + '.pt'
             best_val_loss = val_loss
         elif val_loss > best_val_loss:
             increasingNumber = increasingNumber + 1
@@ -881,12 +883,12 @@ def main_update_twoLoss(args, f_out, f_inf, hidden_size, embed_size):
             print("Saving model...")
             f_out.write("Saving model...\n")
             f_out.flush()
-            if not os.path.isdir(".save"):
-                os.makedirs(".save")
-            torch.save(seq2seq.state_dict(), './.save/seq2seq_%d.pt' % (e))
+            if not os.path.isdir(args.save_path):
+                os.makedirs(args.save_path)
+            torch.save(seq2seq.state_dict(), './%s/seq2seq_%d.pt' % (args.save_path, e))
             best_val_nmt_loss = val_loss_nmt
             best_val_ctc_loss = val_loss_ctc
-            best_model_path = './.save/seq2seq_' + str(e) + '.pt'
+            best_model_path = './' + args.save_path + '/seq2seq_' + str(e) + '.pt'
         elif val_loss_nmt > best_val_nmt_loss and val_loss_ctc > best_val_ctc_loss:
             increasingNumber = increasingNumber + 1
             if increasingNumber == 5:
