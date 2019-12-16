@@ -1,0 +1,21 @@
+﻿The training mode is nmt_char.
+Preparing dataset...
+[TRAIN]:83334	[TEST]:834
+[INPUT_vocab]:370246	[OUTPUT_vocab]:6439
+Instantiating models...
+Seq2Seq(
+  (encoder): Encoder(
+    (embed): Embedding(370246, 256)
+    (gru): GRU(256, 256, num_layers=2, dropout=0.5, bidirectional=True)
+  )
+  (decoder): Decoder(
+    (embed): Embedding(6439, 256)
+    (dropout): Dropout(p=0.5, inplace=True)
+    (attention): Attention(
+      (attn): Linear(in_features=512, out_features=256, bias=True)
+    )
+    (gru): GRU(512, 256, dropout=0.5)
+    (out): Linear(in_features=512, out_features=6439, bias=True)
+  )
+)Batch: 1000	Loss: tensor(6.9924, device='cuda:0')	PPL: 1088.2916004064207
+Batch: 2000	Loss: tensor(6.1799, device='cuda:0')	PPL: 482.9527225882769

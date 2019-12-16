@@ -109,7 +109,6 @@ class Decoder(nn.Module):
         # Get the embedding of the current input word (last output word)
         embedded = self.embed(input).unsqueeze(0)  # (1,B,N)
         embedded = self.dropout(embedded)
-        pdb.set_trace()
         # Calculate attention weights and apply to encoder outputs
         if len(last_hidden) == 2:
             attn_weights = self.attention(last_hidden[0][-1], encoder_outputs)
@@ -173,8 +172,7 @@ class Seq2Seq(nn.Module):
             seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=True)
             return seg_output, hidden_seg
         elif self.mode == 'nmt' or self.mode == 'nmt_char':
-            pdb.set_trace()
-            encoder_output, hidden = self.encoder(src)
+            encoder_output, hidden_temp = self.encoder(src)
             #判断是GRU还是LSTM的model cell
             #if len(hidden_temp) == 2:
             #    hidden = hidden_temp[0]
@@ -182,6 +180,8 @@ class Seq2Seq(nn.Module):
             #    hidden = hidden_temp[0]
             
             #hidden = hidden[:self.decoder.n_layers]
+            hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
+
             output = Variable(trg.data[0, :])  # sos
             for t in range(1, max_len):
                 output, hidden, attn_weights = self.decoder(
