@@ -70,6 +70,8 @@ def parse_arguments():
                    help='the number of ctc network layers.')
     p.add_argument('-dropout', type=float, default=0.5,
                    help='dropout.')
+    p.add_argument('-model_cell', type=str, default='GRU',
+                   help='the cell name of model (LSTM / GRU).')
     return p.parse_args()
 
 def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = None):
@@ -514,12 +516,12 @@ def main_ctc(args, f_out, f_inf):
     f_out.flush()
 
     encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
-        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     en_word_size = zh_word_size
     decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
-        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
-        n_layers=args.ctc_layers, dropout=args.dropout)
+        n_layers=args.ctc_layers, dropout=args.dropout, model_cell=args.model_cell)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
@@ -591,9 +593,9 @@ def main_nmt(args, f_out):
     f_out.write("Instantiating models...\n")
     f_out.flush()
     encoder = Encoder(zh_size, args.embed_size, args.hidden_size,
-                      n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+                      n_layers=args.nmt_encoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
-                      n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+                      n_layers=args.nmt_decoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     ctc_seg = None
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
@@ -666,12 +668,12 @@ def main_combine(args, f_out):
     f_out.write("Instantiating models...\n")
     f_out.flush()
     encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
-        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
-        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     zh_word_size = en_word_size
     ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
-        n_layers=args.ctc_layers, dropout=args.dropout)
+        n_layers=args.ctc_layers, dropout=args.dropout, model_cell=args.model_cell)
     
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
@@ -752,12 +754,12 @@ def main_refine(args, f_out, f_inf):
     f_out.flush()
 
     encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
-        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     en_word_size = zh_word_size
     decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
-        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
-        n_layers=args.ctc_layers, dropout=args.dropout)
+        n_layers=args.ctc_layers, dropout=args.dropout, model_cell=args.model_cell)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
@@ -838,11 +840,11 @@ def main_update_twoLoss(args, f_out, f_inf):
     f_out.flush()
 
     encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
-        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
-        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout, model_cell=args.model_cell)
     ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
-        n_layers=args.ctc_layers, dropout=args.dropout)
+        n_layers=args.ctc_layers, dropout=args.dropout, model_cell=args.model_cell)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
