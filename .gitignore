@@ -1,3 +1,5 @@
 init_combineModel
 init_CTCModel
 checkpoints
+infSentence
+

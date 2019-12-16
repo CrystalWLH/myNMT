@@ -3,7 +3,8 @@
 '''
     训练，测试主文件
     Author: Lihui Wang     
-    Date: 2019-02-25
+    Create Date: 2019-02-25
+    Update Date: 2019-12-16
 ''' 
 
 import os
@@ -18,7 +19,8 @@ from model import Encoder, Decoder, Seq2Seq, CTC_Seg, Encoder_Combine
 from utils import load_dataset
 import pdb
 from ctcDecoder import GreedyDecoder, NMTDecoder
-
+import sys
+from sys import argv
 
 def parse_arguments():
     p = argparse.ArgumentParser(description='Hyperparams')
@@ -48,12 +50,26 @@ def parse_arguments():
                    help='the model path used by initialize the CTC segmentation network on the combine training.')
     p.add_argument('-init_combine_model', type=str, default=None,
                    help='the model path used by refine the CTC segmentation network on the ctc segmentation training.')
+    p.add_argument('-log_FileName', type=str, default='log',
+                   help='the file name of log.')
     p.add_argument('-seg_result_file', type=str, default=None,
                    help='the path of segmentation result.')
     p.add_argument('-nmt_result_file', type=str, default=None,
                    help='the path of neural machine translation result.')
     p.add_argument('-save_path', type=str, default='checkpoints',
                    help='the path of training model.')
+    p.add_argument('-embed_size', type=int, default=256,
+                   help='embedding size.')
+    p.add_argument('-hidden_size', type=int, default=512,
+                   help='hidden size of every layer.')
+    p.add_argument('-nmt_encoder_layers', type=int, default=2,
+                   help='the number of nmt encoder layers.')
+    p.add_argument('-nmt_decoder_layers', type=int, default=2,
+                   help='the number of nmt decoder layers.')
+    p.add_argument('-ctc_layers', type=int, default=2,
+                   help='the number of ctc network layers.')
+    p.add_argument('-dropout', type=float, default=0.5,
+                   help='dropout.')
     return p.parse_args()
 
 def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = None):
@@ -75,8 +91,6 @@ def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = Non
         with torch.no_grad():
             src = Variable(src.data.cuda())
             trg = Variable(trg.data.cuda())
-        # src = Variable(src.data.cuda(), volatile=True)
-        # trg = Variable(trg.data.cuda(), volatile=True)
         
         output, hidden = model(src, trg)
 
@@ -135,8 +149,6 @@ def evaluate_nmt(model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_result_filen
         with torch.no_grad():
             src = Variable(src.data.cuda())
             trg = Variable(trg.data.cuda())
-        # src = Variable(src.data.cuda(), volatile=True)
-        # trg = Variable(trg.data.cuda(), volatile=True)
         output = model(src, trg, teacher_forcing_ratio=0.0)
         loss = F.nll_loss(output[1:].view(-1, vocab_size),
                                trg[1:].contiguous().view(-1),
@@ -492,7 +504,7 @@ def prepareDate(args, f_out):
         f_out.flush()
         return train_iter, val_iter, test_iter, INPUTField, OUTPUTField, input_dict_size, output_dict_size
 
-def main_ctc(args, f_out, f_inf, hidden_size, embed_size):
+def main_ctc(args, f_out, f_inf):
     #准备数据
     train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD, zh_cha_size, zh_word_size = prepareDate(args, f_out)
 
@@ -501,13 +513,13 @@ def main_ctc(args, f_out, f_inf, hidden_size, embed_size):
     f_out.write("Instantiating models...\n")
     f_out.flush()
 
-    encoder = Encoder_Combine(hidden_size, hidden_size,
-        n_layers=2, dropout=0.5)
+    encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
     en_word_size = zh_word_size
-    decoder = Decoder(embed_size, hidden_size, en_word_size,
-        n_layers=1, dropout=0.5)
-    ctc_seg = CTC_Seg(zh_cha_size, embed_size, hidden_size, zh_word_size + 1, 
-        n_layers=2, dropout=0.5)
+    decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+    ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
+        n_layers=args.ctc_layers, dropout=args.dropout)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
@@ -571,17 +583,17 @@ def main_ctc(args, f_out, f_inf, hidden_size, embed_size):
     f_out.flush()
 
 
-def main_nmt(args, f_out, hidden_size, embed_size):
+def main_nmt(args, f_out):
     #准备数据
     train_iter, val_iter, test_iter, ZH, EN_WORD, zh_size, en_word_size = prepareDate(args, f_out)
 
     print("Instantiating models...")
     f_out.write("Instantiating models...\n")
     f_out.flush()
-    encoder = Encoder(zh_size, embed_size, hidden_size,
-                      n_layers=2, dropout=0.5)
-    decoder = Decoder(embed_size, hidden_size, en_word_size,
-                      n_layers=1, dropout=0.5)
+    encoder = Encoder(zh_size, args.embed_size, args.hidden_size,
+                      n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+    decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
+                      n_layers=args.nmt_decoder_layers, dropout=args.dropout)
     ctc_seg = None
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
@@ -645,7 +657,7 @@ def main_nmt(args, f_out, hidden_size, embed_size):
     f_out.write(string)
     f_out.flush()
 
-def main_combine(args, f_out, hidden_size, embed_size):
+def main_combine(args, f_out):
     #准备数据
     train_iter, val_iter, test_iter, ZH_CHA, EN_WORD, zh_cha_size, en_word_size = prepareDate(args, f_out)
 
@@ -653,13 +665,13 @@ def main_combine(args, f_out, hidden_size, embed_size):
     print("Instantiating models...")
     f_out.write("Instantiating models...\n")
     f_out.flush()
-    encoder = Encoder_Combine(hidden_size, hidden_size,
-        n_layers=2, dropout=0.5)
-    decoder = Decoder(embed_size, hidden_size, en_word_size,
-        n_layers=1, dropout=0.5)
+    encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+    decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
     zh_word_size = en_word_size
-    ctc_seg = CTC_Seg(zh_cha_size, embed_size, hidden_size, zh_word_size + 1, 
-        n_layers=2, dropout=0.5)
+    ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
+        n_layers=args.ctc_layers, dropout=args.dropout)
     
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
@@ -730,7 +742,7 @@ def main_combine(args, f_out, hidden_size, embed_size):
     f_out.write(string)
     f_out.flush()
 
-def main_refine(args, f_out, f_inf, hidden_size, embed_size):
+def main_refine(args, f_out, f_inf):
     #准备数据
     train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD, zh_cha_size, zh_word_size = prepareDate(args, f_out)
 
@@ -739,13 +751,13 @@ def main_refine(args, f_out, f_inf, hidden_size, embed_size):
     f_out.write("Instantiating models...\n")
     f_out.flush()
 
-    encoder = Encoder_Combine(hidden_size, hidden_size,
-        n_layers=2, dropout=0.5)
+    encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
     en_word_size = zh_word_size
-    decoder = Decoder(embed_size, hidden_size, en_word_size,
-        n_layers=1, dropout=0.5)
-    ctc_seg = CTC_Seg(zh_cha_size, embed_size, hidden_size, zh_word_size + 1, 
-        n_layers=2, dropout=0.5)
+    decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+    ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
+        n_layers=args.ctc_layers, dropout=args.dropout)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
@@ -816,7 +828,7 @@ def main_refine(args, f_out, f_inf, hidden_size, embed_size):
     f_out.write(string)
     f_out.flush()
 
-def main_update_twoLoss(args, f_out, f_inf, hidden_size, embed_size):
+def main_update_twoLoss(args, f_out, f_inf):
     #准备数据，加载训练ctc分词网络的数据（中文字-中文词），和联合训练的数据（中文字-英文词）
     train_iter, val_iter, test_iter, ZH_CHA, EN_WORD, ZH_WORD, zh_cha_size, en_word_size, zh_word_size = prepareDate(args, f_out)
 
@@ -825,12 +837,12 @@ def main_update_twoLoss(args, f_out, f_inf, hidden_size, embed_size):
     f_out.write("Instantiating models...\n")
     f_out.flush()
 
-    encoder = Encoder_Combine(hidden_size, hidden_size,
-        n_layers=2, dropout=0.5)
-    decoder = Decoder(embed_size, hidden_size, en_word_size,
-        n_layers=1, dropout=0.5)
-    ctc_seg = CTC_Seg(zh_cha_size, embed_size, hidden_size, zh_word_size + 1, 
-        n_layers=2, dropout=0.5)
+    encoder = Encoder_Combine(args.hidden_size, args.hidden_size,
+        n_layers=args.nmt_encoder_layers, dropout=args.dropout)
+    decoder = Decoder(args.embed_size, args.hidden_size, en_word_size,
+        n_layers=args.nmt_decoder_layers, dropout=args.dropout)
+    ctc_seg = CTC_Seg(zh_cha_size, args.embed_size, args.hidden_size, zh_word_size + 1, 
+        n_layers=args.ctc_layers, dropout=args.dropout)
     seq2seq = Seq2Seq(args.mode, encoder, decoder, ctc_seg).cuda()
     optimizer = optim.Adam(seq2seq.parameters(), lr=args.lr)
     print(seq2seq)
@@ -910,34 +922,41 @@ def main_update_twoLoss(args, f_out, f_inf, hidden_size, embed_size):
     f_out.flush()
 
 
-def main(f_out):
+def main():
     args = parse_arguments()
-    hidden_size = 512
-    embed_size = 256
+    f_out = open(args.log_FileName, 'w', encoding='utf-8-sig')
+    #hidden_size = 512
+    #embed_size = 256
     assert torch.cuda.is_available()
 
     if args.mode == 'ctc':
         with open('infSentence', 'w', encoding = 'utf-8') as f_inf:
-            main_ctc(args, f_out, f_inf, hidden_size, embed_size)
+            main_ctc(args, f_out, f_inf)
     elif args.mode == 'nmt':
-        main_nmt(args, f_out, hidden_size, embed_size)
+        main_nmt(args, f_out)
     elif args.mode == 'nmt_char':
-        main_nmt(args, f_out, hidden_size, embed_size)
+        main_nmt(args, f_out)
     elif args.mode == 'combine':
-        main_combine(args, f_out, hidden_size, embed_size)
+        main_combine(args, f_out)
     elif args.mode == 'refine_ctc':
         with open('infSentence', 'w', encoding = 'utf-8') as f_inf:
-            main_refine(args, f_out, f_inf, hidden_size, embed_size)
+            main_refine(args, f_out, f_inf)
     elif args.mode == 'update_twoLoss':
         with open('infSentence', 'w', encoding = 'utf-8') as f_inf:
-            main_update_twoLoss(args, f_out, f_inf, hidden_size, embed_size)
+            main_update_twoLoss(args, f_out, f_inf)
     else:
         print('Please input correct training mode. Such as: ctc | nmt | nmt_char | combine | refine_ctc | update_twoLoss')
-
+    f_out.close()
 
 if __name__ == "__main__":
+    #argvLen = len(sys.argv)
+    #if argvLen <= 1:
+    #    print('<Usage>: python train.py logFilenName. \n')
+    #    exit(1)
+    #logFilenName = argv[1]
     try:
-        with open('log_1', 'w', encoding='utf-8-sig') as f_out:
-            main(f_out)
+        main()
+        #with open(logFilenName, 'w', encoding='utf-8-sig') as f_out:
+        #    main(f_out)
     except KeyboardInterrupt as e:
         print("[STOP]", e)
