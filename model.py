@@ -12,22 +12,27 @@ import random
 from torch import nn
 from torch.autograd import Variable
 import torch.nn.functional as F
-
+import pdb
 
 class Encoder(nn.Module):
     def __init__(self, input_size, embed_size, hidden_size,
-                 n_layers=1, dropout=0.5):
+                 n_layers=1, dropout=0.5, model_cell='GRU'):
         super(Encoder, self).__init__()
         self.input_size = input_size
         self.hidden_size = hidden_size
         self.embed_size = embed_size
+        self.model_cell = model_cell
         self.embed = nn.Embedding(input_size, embed_size)
-        self.gru = nn.GRU(embed_size, hidden_size, n_layers,
-                          dropout=dropout, bidirectional=True)
+        if model_cell == 'GRU':
+            self.model = nn.GRU(embed_size, hidden_size, n_layers,
+                            dropout=dropout, bidirectional=True)
+        else:
+            self.model = nn.LSTM(embed_size, hidden_size, n_layers,
+                            dropout=dropout, bidirectional=True)
 
     def forward(self, src, hidden=None):
         embedded = self.embed(src)
-        outputs, hidden = self.gru(embedded, hidden)
+        outputs, hidden = self.model(embedded, hidden)
         # sum bidirectional outputs
         outputs = (outputs[:, :, :self.hidden_size] +
                    outputs[:, :, self.hidden_size:])
@@ -35,15 +40,20 @@ class Encoder(nn.Module):
 
 class Encoder_Combine(nn.Module):
     def __init__(self, input_size, hidden_size,
-                 n_layers=1, dropout=0.5):
+                 n_layers=1, dropout=0.5, model_cell='GRU'):
         super(Encoder_Combine, self).__init__()
         self.input_size = input_size
         self.hidden_size = hidden_size
-        self.gru = nn.GRU(input_size, hidden_size, n_layers,
-                          dropout=dropout, bidirectional=True)
+        self.model_cell = model_cell
+        if model_cell == 'GRU':
+            self.model = nn.GRU(input_size, hidden_size, n_layers,
+                            dropout=dropout, bidirectional=True)
+        else:
+            self.model = nn.LSTM(input_size, hidden_size, n_layers,
+                            dropout=dropout, bidirectional=True)
 
     def forward(self, src, hidden=None):
-        outputs, hidden = self.gru(src, hidden)
+        outputs, hidden = self.model(src, hidden)
         # sum bidirectional outputs
         outputs = (outputs[:, :, :self.hidden_size] +
                    outputs[:, :, self.hidden_size:])
@@ -76,18 +86,23 @@ class Attention(nn.Module):
 
 class Decoder(nn.Module):
     def __init__(self, embed_size, hidden_size, output_size,
-                 n_layers=1, dropout=0.2):
+                 n_layers=1, dropout=0.2, model_cell='GRU'):
         super(Decoder, self).__init__()
         self.embed_size = embed_size
         self.hidden_size = hidden_size
         self.output_size = output_size
         self.n_layers = n_layers
+        self.model_cell = model_cell
 
         self.embed = nn.Embedding(output_size, embed_size)
         self.dropout = nn.Dropout(dropout, inplace=True)
         self.attention = Attention(hidden_size)
-        self.gru = nn.GRU(hidden_size + embed_size, hidden_size,
-                          n_layers, dropout=dropout)
+        if model_cell == 'GRU':
+            self.model = nn.GRU(hidden_size + embed_size, hidden_size,
+                            n_layers, dropout=dropout)
+        else:
+            self.model = nn.LSTM(hidden_size + embed_size, hidden_size,
+                            n_layers, dropout=dropout)
         self.out = nn.Linear(hidden_size * 2, output_size)
 
     def forward(self, input, last_hidden, encoder_outputs):
@@ -95,12 +110,15 @@ class Decoder(nn.Module):
         embedded = self.embed(input).unsqueeze(0)  # (1,B,N)
         embedded = self.dropout(embedded)
         # Calculate attention weights and apply to encoder outputs
-        attn_weights = self.attention(last_hidden[-1], encoder_outputs)
+        if len(last_hidden) == 2:
+            attn_weights = self.attention(last_hidden[0][-1], encoder_outputs)
+        else:
+            attn_weights = self.attention(last_hidden[-1], encoder_outputs)
         context = attn_weights.bmm(encoder_outputs.transpose(0, 1))  # (B,1,N)
         context = context.transpose(0, 1)  # (1,B,N)
         # Combine embedded input word and attended context, run through RNN
         rnn_input = torch.cat([embedded, context], 2)
-        output, hidden = self.gru(rnn_input, last_hidden)
+        output, hidden = self.model(rnn_input, last_hidden)
         output = output.squeeze(0)  # (1,B,N) -> (B,N)
         context = context.squeeze(0)
         output = self.out(torch.cat([output, context], 1))
@@ -109,19 +127,25 @@ class Decoder(nn.Module):
 
 class CTC_Seg(nn.Module):
     def __init__(self, input_size, embed_size, hidden_size, output_size, 
-                 n_layers=1, dropout=0.5):
+                 n_layers=1, dropout=0.5, model_cell='GRU'):
         super(CTC_Seg, self).__init__()
         self.input_size = input_size
         self.hidden_size = hidden_size
         self.embed_size = embed_size
         self.embed = nn.Embedding(input_size, embed_size)
-        self.gru = nn.GRU(embed_size, hidden_size, n_layers,
-                          dropout=dropout, bidirectional=True)
+        self.model_cell = model_cell
+        if model_cell == 'GRU':
+            self.model = nn.GRU(embed_size, hidden_size, n_layers,
+                             dropout=dropout, bidirectional=True)
+        else:
+            self.model = nn.LSTM(embed_size, hidden_size, n_layers,
+                            dropout=dropout, bidirectional=True)
+
         self.out = nn.Linear(hidden_size, output_size)
 
     def forward(self, cha, word, is_Final=True, hidden=None):
         embedded = self.embed(cha)
-        outputs, hidden = self.gru(embedded, hidden)
+        outputs, hidden = self.model(embedded, hidden)
         # sum bidirectional outputs
         outputs = (outputs[:, :, :self.hidden_size] +
                    outputs[:, :, self.hidden_size:])
@@ -148,8 +172,15 @@ class Seq2Seq(nn.Module):
             seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=True)
             return seg_output, hidden_seg
         elif self.mode == 'nmt' or self.mode == 'nmt_char':
-            encoder_output, hidden = self.encoder(src)
-            hidden = hidden[:self.decoder.n_layers]
+            encoder_output, hidden_temp = self.encoder(src)
+            #判断是GRU还是LSTM的model cell
+            if len(hidden_temp) == 2:
+                hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
+            else:
+                hidden = hidden_temp[:self.decoder.n_layers]
+            
+            #hidden = hidden[:self.decoder.n_layers]
+            
             output = Variable(trg.data[0, :])  # sos
             for t in range(1, max_len):
                 output, hidden, attn_weights = self.decoder(
@@ -161,35 +192,75 @@ class Seq2Seq(nn.Module):
             return outputs
         elif self.mode == 'combine':
             seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=False)
-            encoder_output, hidden = self.encoder(seg_output, hidden=hidden_seg)
-            hidden = hidden[:self.decoder.n_layers]
+            #判断是GRU还是LSTM的model cell
+            #if len(hidden_seg_temp) == 2:
+            #    hidden_seg = hidden_seg_temp[0]
+            #else:
+            #    hidden_seg = hidden_seg_temp
+            encoder_output, hidden_temp = self.encoder(seg_output, hidden=hidden_seg)
+            #判断是GRU还是LSTM的model cell
+            if len(hidden_temp) == 2:
+                hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
+            else:
+                hidden = hidden_temp[:self.decoder.n_layers]
             output = Variable(trg.data[0, :])  # sos
             for t in range(1, max_len):
-                output, hidden, attn_weights = self.decoder(
+                output, hidden_temp, attn_weights = self.decoder(
                         output, hidden, encoder_output)
                 outputs[t] = output
+                #判断是GRU还是LSTM的model cell
+                #if len(hidden_temp) == 2:
+                #    hidden = hidden_temp[0]
+                #else:
+                #    hidden = hidden_temp
                 is_teacher = random.random() < teacher_forcing_ratio
                 top1 = output.data.max(1)[1]
                 output = Variable(trg.data[t] if is_teacher else top1).cuda()
             return outputs, seg_output
 
         elif self.mode == 'refine_ctc':
-            seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=True)
+            seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=True)
+            #判断是GRU还是LSTM的model cell
+            if len(hidden_seg_temp) == 2:
+                hidden_seg = hidden_seg_temp[0]
+            else:
+                hidden_seg = hidden_seg_temp
             return seg_output, hidden_seg
 
         elif self.mode == 'update_twoLoss':
             if is_twoLoss_ctc:
-                seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=True)
+                seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=True)
+                #判断是GRU还是LSTM的model cell
+                if len(hidden_seg_temp) == 2:
+                    hidden_seg = hidden_seg_temp[0]
+                else:
+                    hidden_seg = hidden_seg_temp
                 return seg_output, hidden_seg
             else:
-                seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=False)
-                encoder_output, hidden = self.encoder(seg_output, hidden=hidden_seg)
-                hidden = hidden[:self.decoder.n_layers]
+                seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=False)
+                #判断是GRU还是LSTM的model cell
+                #if len(hidden_seg_temp) == 2:
+                #    hidden_seg = hidden_seg_temp[0]
+                #else:
+                #    hidden_seg = hidden_seg_temp
+                hidden_seg = hidden_seg_temp
+                encoder_output, hidden_temp = self.encoder(seg_output, hidden=hidden_seg)
+                #判断是GRU还是LSTM的model cell
+                if len(hidden_temp) == 2:
+                    hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
+                else:
+                    hidden = hidden_temp[:self.decoder.n_layers]
+
                 output = Variable(trg.data[0, :])  # sos
                 for t in range(1, max_len):
-                    output, hidden, attn_weights = self.decoder(
+                    output, hidden_temp, attn_weights = self.decoder(
                             output, hidden, encoder_output)
                     outputs[t] = output
+                    #判断是GRU还是LSTM的model cell
+                    #if len(hidden_temp) == 2:
+                    #    hidden = hidden_temp[0]
+                    #else:
+                    #    hidden = hidden_temp
                     is_teacher = random.random() < teacher_forcing_ratio
                     top1 = output.data.max(1)[1]
                     output = Variable(trg.data[t] if is_teacher else top1).cuda()

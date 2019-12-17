@@ -2,4 +2,5 @@ init_combineModel
 init_CTCModel
 checkpoints
 infSentence
-
+__pycache__
+val_result.txt
