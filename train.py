@@ -52,10 +52,14 @@ def parse_arguments():
                    help='the model path used by refine the CTC segmentation network on the ctc segmentation training.')
     p.add_argument('-log_FileName', type=str, default='log',
                    help='the file name of log.')
-    p.add_argument('-seg_result_file', type=str, default=None,
-                   help='the path of segmentation result.')
-    p.add_argument('-nmt_result_file', type=str, default=None,
-                   help='the path of neural machine translation result.')
+    p.add_argument('-seg_result_file', type=str, default='checkpoints/test_seg_result.txt',
+                   help='the path of segmentation test result.')
+    p.add_argument('-val_seg_result_file', type=str, default='checkpoints/val_seg_result.txt',
+                   help='the path of segmentation val result.')
+    p.add_argument('-nmt_result_file', type=str, default='checkpoints/test_nmt_result.txt',
+                   help='the path of neural machine translation test result.')
+    p.add_argument('-val_nmt_result_file', type=str, default='checkpoints/val_nmt_result.txt',
+                   help='the path of neural machine translation val result.')
     p.add_argument('-save_path', type=str, default='checkpoints',
                    help='the path of training model.')
     p.add_argument('-embed_size', type=int, default=256,
@@ -74,12 +78,16 @@ def parse_arguments():
                    help='the cell name of model (LSTM / GRU).')
     return p.parse_args()
 
-def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = None):
+def evaluate_ctc(epoch, model, val_iter, vocab_size, ZH_WORD, seg_result_filename = None):
     if seg_result_filename == None:
-        f_out = open('val_result.txt', 'w', encoding='utf-8')
-    else:
+        filename = 'val_seg_result_' + str(epoch) + '.txt'
+        f_out = open(filename, 'w', encoding='utf-8')
+    elif epoch == 0:
         f_out = open(seg_result_filename, 'w', encoding = 'utf-8')
-    
+    else:
+        filename = seg_result_filename.split('.')[0] + '_' + str(epoch) + '.' + seg_result_filename.split('.')[1]
+        f_out = open(filename, 'w', encoding='utf-8')
+
     model.eval()
     total_loss = 0
     result_total_word = 0
@@ -135,11 +143,15 @@ def evaluate_ctc(model, val_iter, vocab_size, ZH_WORD, seg_result_filename = Non
     f_measure = 2 * precision * recall / (precision + recall)
     return total_loss / lenTotal, precision, recall, f_measure
 
-def evaluate_nmt(model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_result_filename = None):
+def evaluate_nmt(epoch, model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_result_filename = None):
     if nmt_result_filename == None:
-        f_out = open('val_nmt_result.txt', 'w', encoding='utf-8')
-    else:
+        filename = 'val_nmt_result_' + str(epoch) + '.txt'
+        f_out = open(filename, 'w', encoding='utf-8')
+    elif epoch == 0:
         f_out = open(nmt_result_filename, 'w', encoding = 'utf-8')
+    else:
+        filename = nmt_result_filename.split('.')[0] + '_' + str(epoch) + '.' + nmt_result_filename.split('.')[1]
+        f_out = open(filename, 'w', encoding='utf-8')
 
     model.eval()
     pad = EN_WORD.vocab.stoi['<pad>']
@@ -173,11 +185,15 @@ def evaluate_nmt(model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_result_filen
 
     return total_loss / len(val_iter)
 
-def evaluate_combine(model, val_iter, vocab_size, ZH_CHA, EN_WORD, nmt_result_filename = None):
+def evaluate_combine(epoch, model, val_iter, vocab_size, ZH_CHA, EN_WORD, nmt_result_filename = None):
     if nmt_result_filename == None:
-        f_out = open('val_nmt_result.txt', 'w', encoding='utf-8')
-    else:
+        filename = 'val_nmt_result_' + str(epoch) + '.txt'
+        f_out = open(filename, 'w', encoding='utf-8')
+    elif epoch == 0:
         f_out = open(nmt_result_filename, 'w', encoding = 'utf-8')
+    else:
+        filename = nmt_result_filename.split('.')[0] + '_' + str(epoch) + '.' + nmt_result_filename.split('.')[1]
+        f_out = open(filename, 'w', encoding='utf-8')
 
     model.eval()
     pad = EN_WORD.vocab.stoi['<pad>']
@@ -210,15 +226,24 @@ def evaluate_combine(model, val_iter, vocab_size, ZH_CHA, EN_WORD, nmt_result_fi
 
     return total_loss / len(val_iter)
 
-def evaluate_update_twoLoss(model, val_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, seg_result_file = None, nmt_result_filename = None):
+def evaluate_update_twoLoss(epoch, model, val_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, seg_result_filename = None, nmt_result_filename = None):
     if nmt_result_filename == None:
-        f_out_nmt = open('val_nmt_result.txt', 'w', encoding='utf-8')
-    else:
+        filename = 'val_nmt_result_' + str(epoch) + '.txt'
+        f_out_nmt = open(filename, 'w', encoding='utf-8')
+    elif epoch == 0:
         f_out_nmt = open(nmt_result_filename, 'w', encoding = 'utf-8')
-    if seg_result_file == None:
-        f_out_ctc = open('val_ctc_result.txt', 'w', encoding='utf-8')
     else:
-        f_out_ctc = open(seg_result_file, 'w', encoding = 'utf-8')
+        filename = nmt_result_filename.split('.')[0] + '_' + str(epoch) + '.' + nmt_result_filename.split('.')[1]
+        f_out_nmt = open(filename, 'w', encoding='utf-8')
+
+    if seg_result_filename == None:
+        filename = 'val_seg_result_' + str(epoch) + '.txt'    
+        f_out_ctc = open(filename, 'w', encoding='utf-8')
+    elif epoch == 0:
+        f_out_ctc = open(seg_result_filename, 'w', encoding = 'utf-8')
+    else:
+        filename = seg_result_filename.split('.')[0] + '_' + str(epoch) + '.' + seg_result_filename.split('.')[1]
+        f_out_ctc = open(filename, 'w', encoding='utf-8')
 
     model.eval()
     pad = EN_WORD.vocab.stoi['<pad>']
@@ -349,7 +374,6 @@ def train_ctc(e, f_out, f_inf, model, optimizer, train_iter, grad_clip, zh_word_
             f_out.write(string)
             f_out.flush()
             total_loss = 0
-
 
 def train_nmt(e, f_out, model, optimizer, train_iter, vocab_size, grad_clip, ZH_WORD, EN_WORD):
     model.train()
@@ -543,7 +567,7 @@ def main_ctc(args, f_out, f_inf):
 
     for e in range(1, args.epochs+1):
         train_ctc(e, f_out, f_inf, seq2seq, optimizer, train_iter, args.grad_clip, zh_word_size, ZH_CHA, ZH_WORD)
-        val_loss, val_precision, val_recall, val_f_measure = evaluate_ctc(seq2seq, val_iter, zh_word_size, ZH_WORD)
+        val_loss, val_precision, val_recall, val_f_measure = evaluate_ctc(e, seq2seq, val_iter, zh_word_size, ZH_WORD, args.val_seg_result_file)
         print("[Epoch:%d] val_loss:%5.3f | val_ppl:%5.2f | val_precision:%5.2f | val_recall:%5.2f | val_f_measure:%5.2f"
             % (e, val_loss, math.exp(val_loss), val_precision, val_recall, val_f_measure))
         f_out.write('---------------------------------\n')
@@ -571,14 +595,13 @@ def main_ctc(args, f_out, f_inf):
                 f_out.write(string)
                 f_out.flush()
                 break
-
     if best_model_path == "":
         print(str(best_model_path) + " isn't existing.")
         return
 
     #加载在开发及上性能最好的模型进行测试
     seq2seq.load_state_dict(torch.load(best_model_path))
-    test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
+    test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(0, seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
     print("[TEST] loss:%5.2f \t Precision:%5.2f \t Recall:%5.2f \t F_measure:%5.2f" % (test_loss, test_precision, test_recall, test_f_measure))
     string = 'Test loss: ' + str(test_loss) + '\tTest Precision: ' + str(test_precision) + '\tTest Recall: ' + str(test_recall) + '\tTest F_measure: ' + str(test_f_measure) +'\n'
     f_out.write(string)
@@ -618,7 +641,7 @@ def main_nmt(args, f_out):
     for e in range(1, args.epochs+1):
         train_nmt(e, f_out, seq2seq, optimizer, train_iter,
             en_word_size, args.grad_clip, ZH, EN_WORD)
-        val_loss = evaluate_nmt(seq2seq, val_iter, en_word_size, ZH, EN_WORD)
+        val_loss = evaluate_nmt(e, seq2seq, val_iter, en_word_size, ZH, EN_WORD, args.val_nmt_result_file)
 
         print("[Epoch:%d] val_loss:%5.3f | val_ppl:%5.2f"
             % (e, val_loss, math.exp(val_loss)))
@@ -653,7 +676,7 @@ def main_nmt(args, f_out):
         return
 
     seq2seq.load_state_dict(torch.load(best_model_path))
-    test_loss = evaluate_nmt(seq2seq, test_iter, en_word_size, ZH, EN_WORD, args.nmt_result_file)
+    test_loss = evaluate_nmt(0, seq2seq, test_iter, en_word_size, ZH, EN_WORD, args.nmt_result_file)
     print("[TEST] loss:%5.2f" % test_loss)
     string = 'Test loss: ' + str(test_loss) + '\n'
     f_out.write(string)
@@ -703,7 +726,7 @@ def main_combine(args, f_out):
     for e in range(1, args.epochs+1):
         train_combine(e, f_out, seq2seq, optimizer, train_iter,
             en_word_size, args.grad_clip, ZH_CHA, EN_WORD)
-        val_loss = evaluate_combine(seq2seq, val_iter, en_word_size, ZH_CHA, EN_WORD)
+        val_loss = evaluate_combine(e, seq2seq, val_iter, en_word_size, ZH_CHA, EN_WORD, args.val_nmt_result_file)
 
         print("[Epoch:%d] val_loss:%5.3f | val_ppl:%5.2f"
             % (e, val_loss, math.exp(val_loss)))
@@ -738,7 +761,7 @@ def main_combine(args, f_out):
         return
 
     seq2seq.load_state_dict(torch.load(best_model_path))
-    test_loss = evaluate_combine(seq2seq, test_iter, en_word_size, ZH_CHA, EN_WORD, args.nmt_result_file)
+    test_loss = evaluate_combine(0, seq2seq, test_iter, en_word_size, ZH_CHA, EN_WORD, args.nmt_result_file)
     print("[TEST] loss:%5.2f" % test_loss)
     string = 'Test loss: ' + str(test_loss) + '\n'
     f_out.write(string)
@@ -789,7 +812,7 @@ def main_refine(args, f_out, f_inf):
 
     for e in range(1, args.epochs+1):
         train_ctc(e, f_out, f_inf, seq2seq, optimizer, train_iter, args.grad_clip, zh_word_size, ZH_CHA, ZH_WORD)
-        val_loss, val_precision, val_recall, val_f_measure = evaluate_ctc(seq2seq, val_iter, zh_word_size, ZH_WORD)
+        val_loss, val_precision, val_recall, val_f_measure = evaluate_ctc(e, seq2seq, val_iter, zh_word_size, ZH_WORD, args.val_seg_result_file)
         print("[Epoch:%d] val_loss:%5.3f | val_ppl:%5.2f | val_precision:%5.2f | val_recall:%5.2f | val_f_measure:%5.2f"
             % (e, val_loss, math.exp(val_loss), val_precision, val_recall, val_f_measure))
         f_out.write('---------------------------------\n')
@@ -824,7 +847,7 @@ def main_refine(args, f_out, f_inf):
 
     #加载在开发及上性能最好的模型进行测试
     seq2seq.load_state_dict(torch.load(best_model_path))
-    test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
+    test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(0, seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
     print("[TEST] loss:%5.2f \t Precision:%5.2f \t Recall:%5.2f \t F_measure:%5.2f" % (test_loss, test_precision, test_recall, test_f_measure))
     string = 'Test loss: ' + str(test_loss) + '\tTest Precision: ' + str(test_precision) + '\tTest Recall: ' + str(test_recall) + '\tTest F_measure: ' + str(test_f_measure) +'\n'
     f_out.write(string)
@@ -883,7 +906,7 @@ def main_update_twoLoss(args, f_out, f_inf):
 
     for e in range(1, args.epochs+1):
         train_update_twoLoss(e, f_out, f_inf, seq2seq, optimizer, train_iter, args.grad_clip, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD)
-        val_loss_ctc, val_loss_nmt, val_precision, val_recall, val_f_measure = evaluate_update_twoLoss(seq2seq, val_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD)
+        val_loss_ctc, val_loss_nmt, val_precision, val_recall, val_f_measure = evaluate_update_twoLoss(e, seq2seq, val_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, args.val_seg_result_file, args.val_nmt_result_file)
         print("[Epoch:%d] | val_loss_nmt:%5.3f | val_loss_ctc:%5.3f | val_precision:%5.3f | val_recall:%5.3f | val_f_measure:%5.3f "
             % (e, val_loss_nmt, val_loss_ctc, val_precision, val_recall, val_f_measure))
         f_out.write('---------------------------------\n')
@@ -917,7 +940,7 @@ def main_update_twoLoss(args, f_out, f_inf):
 
     #加载在开发及上性能最好的模型进行测试
     seq2seq.load_state_dict(torch.load(best_model_path))
-    test_loss_ctc, test_loss_nmt, test_precision, test_recall, test_f_measure = evaluate_update_twoLoss(seq2seq, test_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, args.seg_result_file, args.nmt_result_file)
+    test_loss_ctc, test_loss_nmt, test_precision, test_recall, test_f_measure = evaluate_update_twoLoss(0, seq2seq, test_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, args.seg_result_file, args.nmt_result_file)
     print("[TEST] nmt_loss:%5.3f | ctc_loss:%5.3f | test_precision:%5.3f | test_recall:%5.3f | test_f_measure:%5.3f " % (test_loss_nmt, test_loss_ctc, test_precision, test_recall, test_f_measure))
     string = 'Test nmt_loss: ' + str(test_loss_nmt) + '\tTest ctc_loss: ' + str(test_loss_ctc) + '\tTest precision: ' + str(test_precision) + '\tTest recall: ' + str(test_recall) + '\tTest f_measure: ' + str(test_f_measure) + '\n'
     f_out.write(string)
