@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 '''
-    加载数据，处理数据等的基本操作文件
+    Load data, process data, tokenize, segementation and so on.
     Author: Lihui Wang     
-    Date: 2019-02-25
+    Create Date: 2019-02-25
+    Update Date: 2019-12-18
 ''' 
 
 import re
@@ -34,7 +35,12 @@ def load_dataset(args):
     def tokenzie_enword(text):
         return tokenizer.tokenize(text)
 
-
+    def tokenzie_ticha(text):
+        return [tok for tok in text.strip().split()]
+    
+    def tokenzie_tiword(text):
+        return [tok for tok in text.strip().split()]
+    
     ZH_CHA = Field(tokenize=tokenzie_cncha, include_lengths=True,
             init_token='<sos>', eos_token='<eos>')
 
@@ -43,79 +49,217 @@ def load_dataset(args):
 
     EN_WORD = Field(tokenize=tokenzie_enword, include_lengths=True,
                init_token='<sos>', eos_token='<eos>')
+    
+    TI_CHA = Field(tokenize=tokenzie_ticha, include_lengths=True,
+            init_token='<sos>', eos_token='<eos>')
+
+    TI_WORD = Field(tokenize=tokenzie_tiword, include_lengths=True,
+            init_token='<sos>', eos_token='<eos>')
 
     #pdb.set_trace()
 
     #According to training mode, load data
     if args.mode == 'ctc':
-        exts=(args.extension.split()[0], args.extension.split()[1])
-        train, val, test = Trans.splits(path=args.path, exts=exts,
-             fields=(ZH_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+        if args.extension.split()[0] == '.ti':
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(TI_CHA, TI_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                TI_CHA.build_vocab(train.src)
+            else:
+                TI_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                TI_WORD.build_vocab(train.trg)
+            else:
+                TI_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_CHA, TI_WORD
+        else:
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(ZH_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
 
-        ZH_CHA.build_vocab(train.src)
-        ZH_WORD.build_vocab(train.trg, max_size=50000)
+            if args.src_dict_maxSize == -1:
+                ZH_CHA.build_vocab(train.src)
+            else:
+                ZH_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
         
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-        return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
 
     elif args.mode == 'nmt':
-        exts=(args.extension.split()[0], args.extension.split()[1])
-        train, val, test = Trans.splits(path=args.path, exts=exts,
-             fields=(ZH_WORD, EN_WORD), train=args.train, validation=args.valid, test=args.test)
+        if args.extension.split()[0] == '.ti' or args.extension.split()[1] == '.zh':
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(TI_WORD, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.seg_dict_maxSize == -1:
+                TI_WORD.build_vocab(train.src)
+            else:
+                TI_WORD.build_vocab(train.src, max_size=args.seg_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_WORD, ZH_WORD
+        else:
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                 fields=(ZH_WORD, EN_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.seg_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.src)
+            else:
+                ZH_WORD.build_vocab(train.src, max_size=args.seg_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                EN_WORD.build_vocab(train.trg)
+            else:
+                EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
 
-        ZH_WORD.build_vocab(train.src, max_size=50000)
-        EN_WORD.build_vocab(train.trg, max_size=50000)
-
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-        return train_iter, val_iter, test_iter, ZH_WORD, EN_WORD
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, ZH_WORD, EN_WORD
 
     elif args.mode == 'nmt_char':
-        exts=(args.extension.split()[0], args.extension.split()[1])
-        train, val, test = Trans.splits(path=args.path, exts=exts,
-             fields=(ZH_CHA, EN_WORD), train=args.train, validation=args.valid, test=args.test)
+        if args.extension.split()[0] == '.ti':
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(TI_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                TI_CHA.build_vocab(train.src)
+            else:
+                TI_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD
+        else:
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(ZH_CHA, EN_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                ZH_CHA.build_vocab(train.src)
+            else:
+                ZH_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                EN_WORD.build_vocab(train.trg)
+            else:
+                EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
 
-        ZH_CHA.build_vocab(train.src)
-        EN_WORD.build_vocab(train.trg, max_size=50000)
-
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-        return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
     
     elif args.mode == 'combine':
-        exts=(args.extension.split()[0], args.extension.split()[1])
-        train, val, test = Trans.splits(path=args.path, exts=exts,
-             fields=(ZH_CHA, EN_WORD), train=args.train, validation=args.valid, test=args.test)
-
-        ZH_CHA.build_vocab(train.src)
-        EN_WORD.build_vocab(train.trg, max_size=50000)
-
-
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-        return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
+        if args.extension.split()[0] == '.ti':
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(TI_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                TI_CHA.build_vocab(train.src)
+            else:
+                TI_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD
+        else:
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(ZH_CHA, EN_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                ZH_CHA.build_vocab(train.src)
+            else:
+                ZH_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                EN_WORD.build_vocab(train.trg)
+            else:
+                EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
 
     elif args.mode == 'refine_ctc':
-        exts=(args.extension.split()[0], args.extension.split()[1])
-        train, val, test = Trans.splits(path=args.path, exts=exts,
-             fields=(ZH_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
-
-        ZH_CHA.build_vocab(train.src)
-        ZH_WORD.build_vocab(train.trg, max_size=50000)
+        if args.extension.split()[0] == '.ti':
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(TI_CHA, TI_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                TI_CHA.build_vocab(train.src)
+            else:
+                TI_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                TI_WORD.build_vocab(train.trg)
+            else:
+                TI_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_CHA, TI_WORD
+        else:
+            exts=(args.extension.split()[0], args.extension.split()[1])
+            train, val, test = Trans.splits(path=args.path, exts=exts,
+                fields=(ZH_CHA, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                ZH_CHA.build_vocab(train.src)
+            else:
+                ZH_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
         
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-        return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
 
     elif args.mode == 'update_twoLoss':
-        exts = (args.extension.split()[0], args.extension.split()[1], args.extension.split()[2])
-        train, val, test, = mydataset.splits(path=args.path, exts=exts, fields=(ZH_CHA, EN_WORD, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
-        ZH_CHA.build_vocab(train.src)
-        EN_WORD.build_vocab(train.trg, max_size=50000)
-        ZH_WORD.build_vocab(train.ctc, max_size=50000)
+        if args.extension.split()[0] == '.ti':
+            exts = (args.extension.split()[0], args.extension.split()[1], args.extension.split()[2])
+            train, val, test, = mydataset.splits(path=args.path, exts=exts, fields=(TI_CHA, ZH_WORD, TI_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                TI_CHA.build_vocab(train.src)
+            else:
+                TI_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.trg)
+            else:
+                ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                TI_WORD.build_vocab(train.ctc)
+            else:
+                TI_WORD.build_vocab(train.ctc, max_size=args.seg_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD, TI_WORD
+        else:
+            exts = (args.extension.split()[0], args.extension.split()[1], args.extension.split()[2])
+            train, val, test, = mydataset.splits(path=args.path, exts=exts, fields=(ZH_CHA, EN_WORD, ZH_WORD), train=args.train, validation=args.valid, test=args.test)
+            if args.src_dict_maxSize == -1:
+                ZH_CHA.build_vocab(train.src)
+            else:
+                ZH_CHA.build_vocab(train.src, max_size=args.src_dict_maxSize)
+            if args.tgt_dict_maxSize == -1:
+                EN_WORD.build_vocab(train.trg)
+            else:
+                EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
+            if args.seg_dict_maxSize == -1:
+                ZH_WORD.build_vocab(train.ctc)
+            else:
+                ZH_WORD.build_vocab(train.ctc, max_size=args.seg_dict_maxSize)
+            train_iter, val_iter, test_iter = BucketIterator.splits(
+                    (train, val, test), batch_size=args.batch_size, repeat=False)
 
-        train_iter, val_iter, test_iter = BucketIterator.splits(
-                (train, val, test), batch_size=args.batch_size, repeat=False)
-
-        return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD, ZH_WORD
+            return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD, ZH_WORD

@@ -44,6 +44,12 @@ def parse_arguments():
                    help='the filename of valid set.')
     p.add_argument('-test', type=str, default='test',
                    help='the filename of test set.')
+    p.add_argument('-src_dict_maxSize', type=int, default=-1,
+                   help='max size of src dictionary.')
+    p.add_argument('-seg_dict_maxSize', type=int, default=-1,
+                   help='max size of seg dictionary.')
+    p.add_argument('-tgt_dict_maxSize', type=int, default=-1,
+                   help='max size of tgt dictionary.')
     p.add_argument('-model_path', type=str, default=None,
                    help='the path of trained model.')
     p.add_argument('-init_CTC_model', type=str, default=None,
