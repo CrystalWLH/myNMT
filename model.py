@@ -110,7 +110,9 @@ class Decoder(nn.Module):
         embedded = self.embed(input).unsqueeze(0)  # (1,B,N)
         embedded = self.dropout(embedded)
         # Calculate attention weights and apply to encoder outputs
-        if len(last_hidden) == 2:
+        import pdb
+        pdb.set_trace()
+        if self.model_cell == 'LSTM':
             attn_weights = self.attention(last_hidden[0][-1], encoder_outputs)
         else:
             attn_weights = self.attention(last_hidden[-1], encoder_outputs)
