@@ -2,8 +2,9 @@
 #-*- coding:utf-8 -*-
 '''
     build model的文件
-    Author: Lihui Wang     
-    Date: 2019-02-25
+    Author: Lihui Wang  & Shaojun Gao   
+    Create Date: 2019-02-25
+    Update Date: 2019-12-19
 ''' 
 
 import math
@@ -110,8 +111,6 @@ class Decoder(nn.Module):
         embedded = self.embed(input).unsqueeze(0)  # (1,B,N)
         embedded = self.dropout(embedded)
         # Calculate attention weights and apply to encoder outputs
-        import pdb
-        pdb.set_trace()
         if self.model_cell == 'LSTM':
             attn_weights = self.attention(last_hidden[0][-1], encoder_outputs)
         else:
@@ -176,12 +175,10 @@ class Seq2Seq(nn.Module):
         elif self.mode == 'nmt' or self.mode == 'nmt_char':
             encoder_output, hidden_temp = self.encoder(src)
             #判断是GRU还是LSTM的model cell
-            if len(hidden_temp) == 2:
+            if self.encoder.model_cell == 'LSTM':
                 hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
             else:
                 hidden = hidden_temp[:self.decoder.n_layers]
-            
-            #hidden = hidden[:self.decoder.n_layers]
             
             output = Variable(trg.data[0, :])  # sos
             for t in range(1, max_len):
@@ -194,14 +191,9 @@ class Seq2Seq(nn.Module):
             return outputs
         elif self.mode == 'combine':
             seg_output, hidden_seg = self.ctc_seg(src, trg, is_Final=False)
-            #判断是GRU还是LSTM的model cell
-            #if len(hidden_seg_temp) == 2:
-            #    hidden_seg = hidden_seg_temp[0]
-            #else:
-            #    hidden_seg = hidden_seg_temp
             encoder_output, hidden_temp = self.encoder(seg_output, hidden=hidden_seg)
             #判断是GRU还是LSTM的model cell
-            if len(hidden_temp) == 2:
+            if self.encoder.model_cell == 'LSTM':
                 hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
             else:
                 hidden = hidden_temp[:self.decoder.n_layers]
@@ -210,11 +202,6 @@ class Seq2Seq(nn.Module):
                 output, hidden_temp, attn_weights = self.decoder(
                         output, hidden, encoder_output)
                 outputs[t] = output
-                #判断是GRU还是LSTM的model cell
-                #if len(hidden_temp) == 2:
-                #    hidden = hidden_temp[0]
-                #else:
-                #    hidden = hidden_temp
                 is_teacher = random.random() < teacher_forcing_ratio
                 top1 = output.data.max(1)[1]
                 output = Variable(trg.data[t] if is_teacher else top1).cuda()
@@ -223,7 +210,7 @@ class Seq2Seq(nn.Module):
         elif self.mode == 'refine_ctc':
             seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=True)
             #判断是GRU还是LSTM的model cell
-            if len(hidden_seg_temp) == 2:
+            if self.ctc_seg.model_cell == 'LSTM':
                 hidden_seg = hidden_seg_temp[0]
             else:
                 hidden_seg = hidden_seg_temp
@@ -233,22 +220,17 @@ class Seq2Seq(nn.Module):
             if is_twoLoss_ctc:
                 seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=True)
                 #判断是GRU还是LSTM的model cell
-                if len(hidden_seg_temp) == 2:
+                if self.ctc_seg.model_cell == 'LSTM':
                     hidden_seg = hidden_seg_temp[0]
                 else:
                     hidden_seg = hidden_seg_temp
                 return seg_output, hidden_seg
             else:
                 seg_output, hidden_seg_temp = self.ctc_seg(src, trg, is_Final=False)
-                #判断是GRU还是LSTM的model cell
-                #if len(hidden_seg_temp) == 2:
-                #    hidden_seg = hidden_seg_temp[0]
-                #else:
-                #    hidden_seg = hidden_seg_temp
                 hidden_seg = hidden_seg_temp
                 encoder_output, hidden_temp = self.encoder(seg_output, hidden=hidden_seg)
                 #判断是GRU还是LSTM的model cell
-                if len(hidden_temp) == 2:
+                if self.encoder.model_cell == 'LSTM':
                     hidden = (hidden_temp[0][:self.decoder.n_layers], hidden_temp[1][:self.decoder.n_layers])
                 else:
                     hidden = hidden_temp[:self.decoder.n_layers]
@@ -258,11 +240,6 @@ class Seq2Seq(nn.Module):
                     output, hidden_temp, attn_weights = self.decoder(
                             output, hidden, encoder_output)
                     outputs[t] = output
-                    #判断是GRU还是LSTM的model cell
-                    #if len(hidden_temp) == 2:
-                    #    hidden = hidden_temp[0]
-                    #else:
-                    #    hidden = hidden_temp
                     is_teacher = random.random() < teacher_forcing_ratio
                     top1 = output.data.max(1)[1]
                     output = Variable(trg.data[t] if is_teacher else top1).cuda()

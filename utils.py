@@ -8,13 +8,13 @@
 ''' 
 
 import re
-from torchtext.data import Field, BucketIterator
+from torchtext.data import Field, BucketIterator, Iterator
 from torchtext.datasets import TranslationDataset as Trans
 import nltk.tokenize.punkt
 import nltk
 from myDataset import MyDataSet as mydataset
 import pdb
-
+import torch
 '''
     load data
 '''
@@ -72,8 +72,10 @@ def load_dataset(args):
                 TI_WORD.build_vocab(train.trg)
             else:
                 TI_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_CHA, TI_WORD
         else:
             exts=(args.extension.split()[0], args.extension.split()[1])
@@ -89,8 +91,10 @@ def load_dataset(args):
             else:
                 ZH_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
         
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
 
     elif args.mode == 'nmt':
@@ -106,8 +110,10 @@ def load_dataset(args):
                 ZH_WORD.build_vocab(train.trg)
             else:
                 ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_WORD, ZH_WORD
         else:
             exts=(args.extension.split()[0], args.extension.split()[1])
@@ -122,8 +128,10 @@ def load_dataset(args):
             else:
                 EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
 
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, ZH_WORD, EN_WORD
 
     elif args.mode == 'nmt_char':
@@ -140,8 +148,10 @@ def load_dataset(args):
             else:
                 ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
             
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD
         else:
             exts=(args.extension.split()[0], args.extension.split()[1])
@@ -156,8 +166,10 @@ def load_dataset(args):
             else:
                 EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
 
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
     
     elif args.mode == 'combine':
@@ -173,8 +185,10 @@ def load_dataset(args):
                 ZH_WORD.build_vocab(train.trg)
             else:
                 ZH_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD
         else:
             exts=(args.extension.split()[0], args.extension.split()[1])
@@ -188,8 +202,10 @@ def load_dataset(args):
                 EN_WORD.build_vocab(train.trg)
             else:
                 EN_WORD.build_vocab(train.trg, max_size=args.tgt_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD
 
     elif args.mode == 'refine_ctc':
@@ -205,8 +221,10 @@ def load_dataset(args):
                 TI_WORD.build_vocab(train.trg)
             else:
                 TI_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_CHA, TI_WORD
         else:
             exts=(args.extension.split()[0], args.extension.split()[1])
@@ -221,8 +239,10 @@ def load_dataset(args):
             else:
                 ZH_WORD.build_vocab(train.trg, max_size=args.seg_dict_maxSize)
         
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, ZH_CHA, ZH_WORD
 
     elif args.mode == 'update_twoLoss':
@@ -241,8 +261,10 @@ def load_dataset(args):
                 TI_WORD.build_vocab(train.ctc)
             else:
                 TI_WORD.build_vocab(train.ctc, max_size=args.seg_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
             return train_iter, val_iter, test_iter, TI_CHA, ZH_WORD, TI_WORD
         else:
             exts = (args.extension.split()[0], args.extension.split()[1], args.extension.split()[2])
@@ -259,7 +281,9 @@ def load_dataset(args):
                 ZH_WORD.build_vocab(train.ctc)
             else:
                 ZH_WORD.build_vocab(train.ctc, max_size=args.seg_dict_maxSize)
-            train_iter, val_iter, test_iter = BucketIterator.splits(
-                    (train, val, test), batch_size=args.batch_size, repeat=False)
+            train_iter, val_iter = BucketIterator.splits(
+                    (train, val), batch_size=args.batch_size, repeat=False)
+            test_iter = Iterator(test, batch_size=args.batch_size,
+                    sort=False, shuffle=False, sort_within_batch=False, repeat=False)
 
             return train_iter, val_iter, test_iter, ZH_CHA, EN_WORD, ZH_WORD

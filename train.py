@@ -162,7 +162,6 @@ def evaluate_nmt(epoch, model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_resul
     model.eval()
     pad = EN_WORD.vocab.stoi['<pad>']
     total_loss = 0
-    #pdb.set_trace()
     for b, batch in enumerate(val_iter):
         src, len_src = batch.src
         trg, len_trg = batch.trg
@@ -846,7 +845,6 @@ def main_refine(args, f_out, f_inf):
                 f_out.write(string)
                 f_out.flush()
                 break
-
     if best_model_path == "":
         print(str(best_model_path) + " isn't existing.")
         return
