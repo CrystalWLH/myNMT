@@ -26,6 +26,8 @@ def parse_arguments():
     p = argparse.ArgumentParser(description='Hyperparams')
     p.add_argument('-mode', type=str, default='ctc',
                    help='training mode')
+    p.add_argument('-istest', action='store_true',
+                   help='train or test.')
     p.add_argument('-epochs', type=int, default=100,
                    help='number of epochs for train')
     p.add_argument('-batch_size', type=int, default=32,
@@ -188,6 +190,7 @@ def evaluate_nmt(epoch, model, val_iter, vocab_size, ZH_WORD, EN_WORD, nmt_resul
 
         f_out.flush()
 
+    f_out.close()
     return total_loss / len(val_iter)
 
 def evaluate_combine(epoch, model, val_iter, vocab_size, ZH_CHA, EN_WORD, nmt_result_filename = None):
@@ -229,6 +232,7 @@ def evaluate_combine(epoch, model, val_iter, vocab_size, ZH_CHA, EN_WORD, nmt_re
 
         f_out.flush()
 
+    f_out.close()
     return total_loss / len(val_iter)
 
 def evaluate_update_twoLoss(epoch, model, val_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, seg_result_filename = None, nmt_result_filename = None):
@@ -563,8 +567,20 @@ def main_ctc(args, f_out, f_inf):
         f_out.flush()
         seq2seq.load_state_dict(torch.load(args.model_path))
 
-    #pdb.set_trace()
-
+    #Test trained model
+    if args.istest:
+        if args.model_path == None:
+            print('Please input the trained model to test.')
+            exit(1)
+        else:
+            print('Test the model ' + str(args.model_path) + '.')
+            test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(0, seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
+            print("[TEST] loss:%5.2f \t Precision:%5.2f \t Recall:%5.2f \t F_measure:%5.2f" % (test_loss, test_precision, test_recall, test_f_measure))
+            string = 'Test loss: ' + str(test_loss) + '\tTest Precision: ' + str(test_precision) + '\tTest Recall: ' + str(test_recall) + '\tTest F_measure: ' + str(test_f_measure) +'\n'
+            f_out.write(string)
+            f_out.flush()
+            exit(0)
+        
     #记录开发集上loss上升次数的变量
     increasingNumber = 0
     best_model_path = ""
@@ -636,8 +652,21 @@ def main_nmt(args, f_out):
         f_out.write(string)
         f_out.flush()
         seq2seq.load_state_dict(torch.load(args.model_path))
-
-
+  
+    #Test trained model
+    if args.istest:
+        if args.model_path == None:
+            print('Please input the trained model to test.')
+            exit(1)
+        else:
+            print('Test the model ' + str(args.model_path) + '.')
+            test_loss = evaluate_nmt(0, seq2seq, test_iter, en_word_size, ZH, EN_WORD, args.nmt_result_file)
+            print("[TEST] loss:%5.2f" % test_loss)
+            string = 'Test loss: ' + str(test_loss) + '\n'
+            f_out.write(string)
+            f_out.flush()
+            exit(0)
+            
     #记录开发集上loss上升次数的变量
     increasingNumber = 0
     best_model_path = ""
@@ -722,6 +751,20 @@ def main_combine(args, f_out):
         f_out.write(string)
         f_out.flush()
         seq2seq.load_state_dict(torch.load(args.model_path))
+    
+    #Test trained model
+    if args.istest:
+        if args.model_path == None:
+            print('Please input the trained model to test.')
+            exit(1)
+        else:
+            print('Test the model ' + str(args.model_path) + '.')
+            test_loss = evaluate_combine(0, seq2seq, test_iter, en_word_size, ZH_CHA, EN_WORD, args.nmt_result_file)
+            print("[TEST] loss:%5.2f" % test_loss)
+            string = 'Test loss: ' + str(test_loss) + '\n'
+            f_out.write(string)
+            f_out.flush()
+            exit(0)
 
     #记录开发集上loss上升次数的变量
     increasingNumber = 0
@@ -808,7 +851,19 @@ def main_refine(args, f_out, f_inf):
         f_out.flush()
         seq2seq.load_state_dict(torch.load(args.model_path))
 
-    #pdb.set_trace()
+    #Test trained model
+    if args.istest:
+        if args.model_path == None:
+            print('Please input the trained model to test.')
+            exit(1)
+        else:
+            print('Test the model ' + str(args.model_path) + '.')
+            test_loss, test_precision, test_recall, test_f_measure = evaluate_ctc(0, seq2seq, test_iter, zh_word_size, ZH_WORD, args.seg_result_file)
+            print("[TEST] loss:%5.2f \t Precision:%5.2f \t Recall:%5.2f \t F_measure:%5.2f" % (test_loss, test_precision, test_recall, test_f_measure))
+            string = 'Test loss: ' + str(test_loss) + '\tTest Precision: ' + str(test_precision) + '\tTest Recall: ' + str(test_recall) + '\tTest F_measure: ' + str(test_f_measure) +'\n'
+            f_out.write(string)
+            f_out.flush()
+            exit(0)
 
     #记录开发集上loss上升次数的变量
     increasingNumber = 0
@@ -900,7 +955,19 @@ def main_update_twoLoss(args, f_out, f_inf):
         f_out.flush()
         seq2seq.load_state_dict(torch.load(args.model_path))
 
-    #pdb.set_trace()
+    #Test trained model
+    if args.istest:
+        if args.model_path == None:
+            print('Please input the trained model to test.')
+            exit(1)
+        else:
+            print('Test the model ' + str(args.model_path) + '.')
+            test_loss_ctc, test_loss_nmt, test_precision, test_recall, test_f_measure = evaluate_update_twoLoss(0, seq2seq, test_iter, zh_word_size, en_word_size, ZH_CHA, ZH_WORD, EN_WORD, args.seg_result_file, args.nmt_result_file)
+            print("[TEST] nmt_loss:%5.3f | ctc_loss:%5.3f | test_precision:%5.3f | test_recall:%5.3f | test_f_measure:%5.3f " % (test_loss_nmt, test_loss_ctc, test_precision, test_recall, test_f_measure))
+            string = 'Test nmt_loss: ' + str(test_loss_nmt) + '\tTest ctc_loss: ' + str(test_loss_ctc) + '\tTest precision: ' + str(test_precision) + '\tTest recall: ' + str(test_recall) + '\tTest f_measure: ' + str(test_f_measure) + '\n'
+            f_out.write(string)
+            f_out.flush()
+            exit(0)
 
     #记录开发集上loss上升次数的变量
     increasingNumber = 0
@@ -954,8 +1021,6 @@ def main_update_twoLoss(args, f_out, f_inf):
 def main():
     args = parse_arguments()
     f_out = open(args.log_FileName, 'w', encoding='utf-8-sig')
-    #hidden_size = 512
-    #embed_size = 256
     assert torch.cuda.is_available()
 
     if args.mode == 'ctc':
