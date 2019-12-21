@@ -2,9 +2,9 @@
 #-*- coding:utf-8 -*-
 '''
     训练，测试主文件
-    Author: Lihui Wang     
+    Author: Lihui Wang & Shaojun Gao    
     Create Date: 2019-02-25
-    Update Date: 2019-12-16
+    Update Date: 2019-12-20
 ''' 
 
 import os

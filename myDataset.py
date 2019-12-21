@@ -3,7 +3,7 @@
 '''
     继承data.Dataset类，实现可以读取一种输入文本，两种类别监督信息的dataset类
     Author: Lihui Wang     
-    Date: 2019-03-20
+    Create Date: 2019-03-20
 ''' 
 import os
 import io

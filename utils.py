@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 '''
     Load data, process data, tokenize, segementation and so on.
-    Author: Lihui Wang     
+    Author: Lihui Wang & Shaojun Gao    
     Create Date: 2019-02-25
     Update Date: 2019-12-18
 ''' 

@@ -3,7 +3,7 @@
 '''
     CTC实现解码计算准确率的文件
     Author: Lihui Wang     
-    Date: 2019-02-27
+    Create Date: 2019-02-27
 ''' 
 
 import os
