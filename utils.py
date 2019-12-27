@@ -27,7 +27,7 @@ def load_dataset(args):
 
     def tokenzie_cncha(text):
         #return [tok for tok in re.sub('\s','',text).strip()]
-        return [tok for tok in text.strip()]
+        return [tok for tok in text.strip().split()]
 
     def tokenzie_cnword(text):
         return [tok for tok in text.strip().split()]
