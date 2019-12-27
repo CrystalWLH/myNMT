@@ -1021,6 +1021,8 @@ def main_update_twoLoss(args, f_out, f_inf):
 def main():
     args = parse_arguments()
     f_out = open(args.log_FileName, 'w', encoding='utf-8-sig')
+    f_out.write(str(args) + '\n')
+    f_out.flush()
     assert torch.cuda.is_available()
 
     if args.mode == 'ctc':
