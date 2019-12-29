@@ -56,7 +56,7 @@ class Encoder_Combine(nn.Module):
                             dropout=dropout, bidirectional=True)
 
     def forward(self, src, hidden=None):
-        outputs, hidden = self.model(packed, hidden)
+        outputs, hidden = self.model(src, hidden)
         # sum bidirectional outputs
         outputs = (outputs[:, :, :self.hidden_size] +
                    outputs[:, :, self.hidden_size:])
